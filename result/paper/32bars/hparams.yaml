@@ -1,0 +1,69 @@
+asset_root: 'path/to/save/results'
+
+data_io:
+  path: 'path/to/instance/pklfiles'
+
+  preprocess:
+    num_bars: 32
+    stride_bars: 4
+    frame_per_bar: 16
+    pitch_range: 48
+
+  loader:
+    num_workers: 8
+    batch_size: 8
+    shuffle: True
+    drop_last: True
+    pin_memory: True
+  dataset:
+    data_ratio:
+      - 0.8
+      - 0.1
+      - 0.1
+    num_worker: 4
+
+experiment:
+  max_epoch: 101
+  num_sample: 5
+  topk: 5
+  lr: 0.0001
+  metrics:
+    - 'accuracy'
+  verbose: True
+  num_prime: 16
+  attention_map: False
+  rhythm_only: False
+  restore_rhythm:
+    idx: 1
+    epoch: 100
+
+model:
+  num_pitch: 50
+  frame_per_bar: 16
+  num_bars: 32
+  chord_emb_size: 128
+  pitch_emb_size: 256
+  hidden_dim: 512
+  key_dim: 512
+  value_dim: 512
+  input_dropout: 0.2
+  layer_dropout: 0.2
+  attention_dropout: 0.2
+  num_layers: 8
+  num_heads: 16
+
+optimizer:
+  sgd:
+    weight_decay: 0.0
+    momentum: 0
+    dampening: 0
+  adam:
+    betas:
+      - 0.9
+      - 0.999
+    eps: 0.00000001
+    weight_decay: 0.0
+    amsgrad: False
+  rmsprop:
+    beta:
+      0

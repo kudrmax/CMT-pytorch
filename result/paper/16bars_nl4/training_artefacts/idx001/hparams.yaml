@@ -1,0 +1,62 @@
+asset_root: /content/drive/MyDrive/cmt-training/result_16bars_nl4/training_artefacts
+data_io:
+  dataset:
+    data_ratio:
+    - 0.8
+    - 0.1
+    - 0.1
+    num_worker: 4
+  loader:
+    batch_size: 16
+    drop_last: true
+    num_workers: 8
+    pin_memory: true
+    shuffle: true
+  path: jazz/wjazzd/data/pkl_files/instance_pkl_16bars_str4_fpb16_48p_12keys
+  preprocess:
+    frame_per_bar: 16
+    num_bars: 16
+    pitch_range: 48
+    stride_bars: 4
+experiment:
+  attention_map: false
+  lr: 0.0001
+  max_epoch: 101
+  metrics:
+  - accuracy
+  num_prime: 16
+  num_sample: 5
+  restore_rhythm:
+    epoch: 100
+    idx: 1
+  rhythm_only: false
+  topk: 5
+  verbose: true
+model:
+  attention_dropout: 0.2
+  chord_emb_size: 128
+  frame_per_bar: 16
+  hidden_dim: 512
+  input_dropout: 0.2
+  key_dim: 512
+  layer_dropout: 0.2
+  num_bars: 16
+  num_heads: 16
+  num_layers: 4
+  num_pitch: 50
+  pitch_emb_size: 256
+  value_dim: 512
+optimizer:
+  adam:
+    amsgrad: false
+    betas:
+    - 0.9
+    - 0.999
+    eps: 1.0e-08
+    weight_decay: 0.0
+  rmsprop:
+    beta: 0
+  sgd:
+    dampening: 0
+    momentum: 0
+    weight_decay: 0.0

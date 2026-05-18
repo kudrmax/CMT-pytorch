@@ -1,0 +1,19 @@
+{
+  "phase1_best_epoch": 20,
+  "phase1_best_rhythm_acc": 0.7098,
+  "phase2_best_epoch": 50,
+  "phase2_best_pitch_acc_onset_only": 0.0988,
+  "max_epoch": 101,
+  "overfit_warning": false,
+  "hparams_used": "hparams_jazz_32bars.yaml",
+  "final_test_loss": 1.5984730124473572,
+  "final_test_ppl": 4.945474977067696,
+  "final_test_nll_pitch": 0.970740020275116,
+  "final_test_nll_rhythm": 0.6277329921722412,
+  "final_test_rhythm_acc": 0.704833984375,
+  "final_test_pitch_acc": 0.10626124096146147,
+  "final_test_n_files": 10,
+  "final_test_n_windows": 27,
+  "final_test_note": "evaluated on canonical test=40 (split.json[test]); held out from both gradient training and best-checkpoint selection. Metrics averaged across batches, matching trainer._epoch('eval') convention.",
+  "final_test_pitch_acc_full": 0.7728271484375
+}

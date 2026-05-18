@@ -1,0 +1,19 @@
+{
+  "phase1_best_epoch": 70,
+  "phase1_best_rhythm_acc": 0.7096,
+  "phase2_best_epoch": 50,
+  "phase2_best_pitch_acc_onset_only": 0.1573,
+  "max_epoch": 101,
+  "overfit_warning": false,
+  "hparams_used": "hparams_jazz_16bars_dropout03.yaml",
+  "final_test_loss": 1.3529519949640547,
+  "final_test_ppl": 3.868829455320428,
+  "final_test_nll_pitch": 0.745161269392286,
+  "final_test_nll_rhythm": 0.6077907255717686,
+  "final_test_rhythm_acc": 0.7166573660714286,
+  "final_test_pitch_acc": 0.17010509297785137,
+  "final_test_pitch_acc_full": 0.7718331473214286,
+  "final_test_n_files": 20,
+  "final_test_n_windows": 98,
+  "final_test_note": "evaluated on canonical test=40 (split.json[test]); held out from both gradient training and best-checkpoint selection. Metrics averaged across batches, matching trainer._epoch('eval') convention."
+}

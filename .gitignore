@@ -1,2 +1,27 @@
 .idea/*
-hparams.yaml
+/hparams.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtualenv
+.venv/
+
+# Training artefacts: only the heavy checkpoints are gitignored (kept on HF
+# instead). Logs, summary.json, split_info.json, sampling_results, hparams.yaml
+# snapshots, test_inference outputs — all stay in git for reproducibility.
+result/**/*.pth.tar
+result/.cache/
+
+# OS
+.DS_Store
+
+# Data artefacts (jazz/wjazzd/data/):
+# - wjazzd.db (41 MB) — source of truth, committed for reproducibility
+# - midi/ (3 MB, 430 dirs) — input for authorial preprocess.py, committed
+# - pkl_files/* — output of authorial preprocess.py, regenerated in Colab from midi/ (NOT committed)
+
+jazz/wjazzd/data/pkl_files/
+

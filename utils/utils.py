@@ -151,7 +151,7 @@ def save_instruments_as_image(filename, instruments, frame_per_bar=16, num_bars=
         ax.set_ylim([lowest_pitch, highest_pitch])
         ax.set_xticks(np.arange(frame_per_bar, timelen // rows, frame_per_bar))
         ax.set_xticklabels(np.arange(row*(timelen // rows) + 2 * frame_per_bar, (row+1)*(timelen // rows) + frame_per_bar, frame_per_bar))
-        ax.set_yticks(np.arange(lowest_pitch, highest_pitch, 12))
+        ax.set_yticks(np.arange(lowest_pitch, highest_pitch + 1, 12))
         ax.set_yticklabels(C_labels)
         for C_idx in range(12 + lowest_pitch, highest_pitch, 12):
             ax.axhline(y=C_idx, color='b', linewidth=0.5)

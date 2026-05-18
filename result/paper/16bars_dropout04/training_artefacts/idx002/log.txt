@@ -1,0 +1,1994 @@
+I repo 05-14 02:09:44.316 run.py:53] get loaders
+I repo 05-14 02:09:44.327 run.py:59] build graph, criterion, optimizer and trainer
+I repo 05-14 02:09:45.964 run.py:94] start training
+I repo 05-14 02:09:46.364 trainer.py:77] restore rhythm model
+I repo 05-14 02:09:46.370 trainer.py:125] 
+I repo 05-14 02:09:46.370 trainer.py:126] 1 epoch
+I repo 05-14 02:09:46.370 trainer.py:129] ==========train 1 epoch==========
+I repo 05-14 02:09:55.756 utils.py:43] nll/train: 28.1298
+I repo 05-14 02:09:55.757 utils.py:43] nll_pitch/train: 27.4008
+I repo 05-14 02:09:55.757 utils.py:43] nll_rhythm/train: 0.7290
+I repo 05-14 02:09:55.757 utils.py:45] accuracy_rhythm/train: 0.6412
+I repo 05-14 02:09:55.757 utils.py:45] accuracy_pitch/train: 0.0289
+I repo 05-14 02:09:55.760 trainer.py:134] ==========valid 1 epoch==========
+I repo 05-14 02:09:56.016 utils.py:43] nll/eval: 7.9431
+I repo 05-14 02:09:56.016 utils.py:43] nll_pitch/eval: 7.3338
+I repo 05-14 02:09:56.016 utils.py:43] nll_rhythm/eval: 0.6093
+I repo 05-14 02:09:56.016 utils.py:45] accuracy_rhythm/eval: 0.7011
+I repo 05-14 02:09:56.016 utils.py:45] accuracy_pitch/eval: 0.0367
+I repo 05-14 02:09:56.024 trainer.py:125] 
+I repo 05-14 02:09:56.025 trainer.py:126] 2 epoch
+I repo 05-14 02:09:56.025 trainer.py:129] ==========train 2 epoch==========
+I repo 05-14 02:10:00.610 trainer.py:206] 100 training steps
+I repo 05-14 02:10:00.648 utils.py:43] nll: 11.4017
+I repo 05-14 02:10:00.649 utils.py:43] nll_pitch: 10.7684
+I repo 05-14 02:10:00.649 utils.py:43] nll_rhythm: 0.6333
+I repo 05-14 02:10:00.650 utils.py:45] accuracy_rhythm/train: 0.6860
+I repo 05-14 02:10:00.650 utils.py:45] accuracy_pitch/train: 0.0517
+I repo 05-14 02:10:04.983 utils.py:43] nll/train: 12.1988
+I repo 05-14 02:10:04.983 utils.py:43] nll_pitch/train: 11.5659
+I repo 05-14 02:10:04.984 utils.py:43] nll_rhythm/train: 0.6329
+I repo 05-14 02:10:04.984 utils.py:45] accuracy_rhythm/train: 0.6946
+I repo 05-14 02:10:04.984 utils.py:45] accuracy_pitch/train: 0.0482
+I repo 05-14 02:10:04.988 trainer.py:134] ==========valid 2 epoch==========
+I repo 05-14 02:10:05.243 utils.py:43] nll/eval: 4.7864
+I repo 05-14 02:10:05.244 utils.py:43] nll_pitch/eval: 4.1835
+I repo 05-14 02:10:05.244 utils.py:43] nll_rhythm/eval: 0.6029
+I repo 05-14 02:10:05.244 utils.py:45] accuracy_rhythm/eval: 0.7082
+I repo 05-14 02:10:05.244 utils.py:45] accuracy_pitch/eval: 0.0679
+I repo 05-14 02:10:05.251 trainer.py:125] 
+I repo 05-14 02:10:05.251 trainer.py:126] 3 epoch
+I repo 05-14 02:10:05.251 trainer.py:129] ==========train 3 epoch==========
+I repo 05-14 02:10:14.174 utils.py:43] nll/train: 8.1423
+I repo 05-14 02:10:14.175 utils.py:43] nll_pitch/train: 7.5381
+I repo 05-14 02:10:14.175 utils.py:43] nll_rhythm/train: 0.6042
+I repo 05-14 02:10:14.175 utils.py:45] accuracy_rhythm/train: 0.7130
+I repo 05-14 02:10:14.175 utils.py:45] accuracy_pitch/train: 0.0562
+I repo 05-14 02:10:14.177 trainer.py:134] ==========valid 3 epoch==========
+I repo 05-14 02:10:14.436 utils.py:43] nll/eval: 3.5290
+I repo 05-14 02:10:14.437 utils.py:43] nll_pitch/eval: 2.9334
+I repo 05-14 02:10:14.437 utils.py:43] nll_rhythm/eval: 0.5956
+I repo 05-14 02:10:14.437 utils.py:45] accuracy_rhythm/eval: 0.7105
+I repo 05-14 02:10:14.437 utils.py:45] accuracy_pitch/eval: 0.0840
+I repo 05-14 02:10:14.443 trainer.py:125] 
+I repo 05-14 02:10:14.443 trainer.py:126] 4 epoch
+I repo 05-14 02:10:14.443 trainer.py:129] ==========train 4 epoch==========
+I repo 05-14 02:10:14.684 trainer.py:206] 200 training steps
+I repo 05-14 02:10:14.721 utils.py:43] nll: 7.8192
+I repo 05-14 02:10:14.721 utils.py:43] nll_pitch: 7.2165
+I repo 05-14 02:10:14.722 utils.py:43] nll_rhythm: 0.6027
+I repo 05-14 02:10:14.722 utils.py:45] accuracy_rhythm/train: 0.7253
+I repo 05-14 02:10:14.722 utils.py:45] accuracy_pitch/train: 0.0747
+I repo 05-14 02:10:23.411 utils.py:43] nll/train: 6.3099
+I repo 05-14 02:10:23.412 utils.py:43] nll_pitch/train: 5.7169
+I repo 05-14 02:10:23.412 utils.py:43] nll_rhythm/train: 0.5930
+I repo 05-14 02:10:23.412 utils.py:45] accuracy_rhythm/train: 0.7207
+I repo 05-14 02:10:23.412 utils.py:45] accuracy_pitch/train: 0.0636
+I repo 05-14 02:10:23.417 trainer.py:134] ==========valid 4 epoch==========
+I repo 05-14 02:10:23.671 utils.py:43] nll/eval: 3.0427
+I repo 05-14 02:10:23.672 utils.py:43] nll_pitch/eval: 2.4426
+I repo 05-14 02:10:23.672 utils.py:43] nll_rhythm/eval: 0.6001
+I repo 05-14 02:10:23.672 utils.py:45] accuracy_rhythm/eval: 0.7100
+I repo 05-14 02:10:23.672 utils.py:45] accuracy_pitch/eval: 0.1014
+I repo 05-14 02:10:23.678 trainer.py:125] 
+I repo 05-14 02:10:23.678 trainer.py:126] 5 epoch
+I repo 05-14 02:10:23.678 trainer.py:129] ==========train 5 epoch==========
+I repo 05-14 02:10:28.547 trainer.py:206] 300 training steps
+I repo 05-14 02:10:28.585 utils.py:43] nll: 4.5517
+I repo 05-14 02:10:28.585 utils.py:43] nll_pitch: 4.0250
+I repo 05-14 02:10:28.585 utils.py:43] nll_rhythm: 0.5267
+I repo 05-14 02:10:28.585 utils.py:45] accuracy_rhythm/train: 0.7678
+I repo 05-14 02:10:28.585 utils.py:45] accuracy_pitch/train: 0.0855
+I repo 05-14 02:10:32.639 utils.py:43] nll/train: 4.9974
+I repo 05-14 02:10:32.639 utils.py:43] nll_pitch/train: 4.4088
+I repo 05-14 02:10:32.640 utils.py:43] nll_rhythm/train: 0.5886
+I repo 05-14 02:10:32.640 utils.py:45] accuracy_rhythm/train: 0.7241
+I repo 05-14 02:10:32.640 utils.py:45] accuracy_pitch/train: 0.0709
+I repo 05-14 02:10:32.644 trainer.py:134] ==========valid 5 epoch==========
+I repo 05-14 02:10:32.898 utils.py:43] nll/eval: 3.2317
+I repo 05-14 02:10:32.898 utils.py:43] nll_pitch/eval: 2.6295
+I repo 05-14 02:10:32.898 utils.py:43] nll_rhythm/eval: 0.6023
+I repo 05-14 02:10:32.898 utils.py:45] accuracy_rhythm/eval: 0.7074
+I repo 05-14 02:10:32.898 utils.py:45] accuracy_pitch/eval: 0.1014
+I repo 05-14 02:10:32.905 trainer.py:125] 
+I repo 05-14 02:10:32.905 trainer.py:126] 6 epoch
+I repo 05-14 02:10:32.905 trainer.py:129] ==========train 6 epoch==========
+I repo 05-14 02:10:41.837 utils.py:43] nll/train: 3.8776
+I repo 05-14 02:10:41.838 utils.py:43] nll_pitch/train: 3.2915
+I repo 05-14 02:10:41.838 utils.py:43] nll_rhythm/train: 0.5861
+I repo 05-14 02:10:41.838 utils.py:45] accuracy_rhythm/train: 0.7244
+I repo 05-14 02:10:41.838 utils.py:45] accuracy_pitch/train: 0.0813
+I repo 05-14 02:10:41.841 trainer.py:134] ==========valid 6 epoch==========
+I repo 05-14 02:10:42.099 utils.py:43] nll/eval: 3.1894
+I repo 05-14 02:10:42.100 utils.py:43] nll_pitch/eval: 2.5914
+I repo 05-14 02:10:42.100 utils.py:43] nll_rhythm/eval: 0.5980
+I repo 05-14 02:10:42.100 utils.py:45] accuracy_rhythm/eval: 0.7099
+I repo 05-14 02:10:42.100 utils.py:45] accuracy_pitch/eval: 0.0829
+I repo 05-14 02:10:42.106 trainer.py:125] 
+I repo 05-14 02:10:42.106 trainer.py:126] 7 epoch
+I repo 05-14 02:10:42.106 trainer.py:129] ==========train 7 epoch==========
+I repo 05-14 02:10:42.618 trainer.py:206] 400 training steps
+I repo 05-14 02:10:42.657 utils.py:43] nll: 3.0854
+I repo 05-14 02:10:42.657 utils.py:43] nll_pitch: 2.5129
+I repo 05-14 02:10:42.657 utils.py:43] nll_rhythm: 0.5725
+I repo 05-14 02:10:42.657 utils.py:45] accuracy_rhythm/train: 0.7268
+I repo 05-14 02:10:42.658 utils.py:45] accuracy_pitch/train: 0.1052
+I repo 05-14 02:10:51.042 utils.py:43] nll/train: 3.1082
+I repo 05-14 02:10:51.043 utils.py:43] nll_pitch/train: 2.5233
+I repo 05-14 02:10:51.043 utils.py:43] nll_rhythm/train: 0.5849
+I repo 05-14 02:10:51.043 utils.py:45] accuracy_rhythm/train: 0.7251
+I repo 05-14 02:10:51.043 utils.py:45] accuracy_pitch/train: 0.0884
+I repo 05-14 02:10:51.047 trainer.py:134] ==========valid 7 epoch==========
+I repo 05-14 02:10:51.304 utils.py:43] nll/eval: 2.7684
+I repo 05-14 02:10:51.305 utils.py:43] nll_pitch/eval: 2.1602
+I repo 05-14 02:10:51.305 utils.py:43] nll_rhythm/eval: 0.6083
+I repo 05-14 02:10:51.305 utils.py:45] accuracy_rhythm/eval: 0.7076
+I repo 05-14 02:10:51.305 utils.py:45] accuracy_pitch/eval: 0.0874
+I repo 05-14 02:10:51.311 trainer.py:125] 
+I repo 05-14 02:10:51.311 trainer.py:126] 8 epoch
+I repo 05-14 02:10:51.311 trainer.py:129] ==========train 8 epoch==========
+I repo 05-14 02:10:56.457 trainer.py:206] 500 training steps
+I repo 05-14 02:10:56.495 utils.py:43] nll: 2.6463
+I repo 05-14 02:10:56.496 utils.py:43] nll_pitch: 2.0493
+I repo 05-14 02:10:56.496 utils.py:43] nll_rhythm: 0.5970
+I repo 05-14 02:10:56.496 utils.py:45] accuracy_rhythm/train: 0.7224
+I repo 05-14 02:10:56.496 utils.py:45] accuracy_pitch/train: 0.0993
+I repo 05-14 02:11:00.280 utils.py:43] nll/train: 2.6007
+I repo 05-14 02:11:00.280 utils.py:43] nll_pitch/train: 2.0178
+I repo 05-14 02:11:00.280 utils.py:43] nll_rhythm/train: 0.5829
+I repo 05-14 02:11:00.280 utils.py:45] accuracy_rhythm/train: 0.7265
+I repo 05-14 02:11:00.280 utils.py:45] accuracy_pitch/train: 0.0965
+I repo 05-14 02:11:00.284 trainer.py:134] ==========valid 8 epoch==========
+I repo 05-14 02:11:00.539 utils.py:43] nll/eval: 2.3369
+I repo 05-14 02:11:00.539 utils.py:43] nll_pitch/eval: 1.7307
+I repo 05-14 02:11:00.539 utils.py:43] nll_rhythm/eval: 0.6062
+I repo 05-14 02:11:00.539 utils.py:45] accuracy_rhythm/eval: 0.7075
+I repo 05-14 02:11:00.539 utils.py:45] accuracy_pitch/eval: 0.0979
+I repo 05-14 02:11:00.545 trainer.py:125] 
+I repo 05-14 02:11:00.545 trainer.py:126] 9 epoch
+I repo 05-14 02:11:00.546 trainer.py:129] ==========train 9 epoch==========
+I repo 05-14 02:11:09.501 utils.py:43] nll/train: 2.2745
+I repo 05-14 02:11:09.501 utils.py:43] nll_pitch/train: 1.6916
+I repo 05-14 02:11:09.501 utils.py:43] nll_rhythm/train: 0.5829
+I repo 05-14 02:11:09.502 utils.py:45] accuracy_rhythm/train: 0.7270
+I repo 05-14 02:11:09.502 utils.py:45] accuracy_pitch/train: 0.1044
+I repo 05-14 02:11:09.505 trainer.py:134] ==========valid 9 epoch==========
+I repo 05-14 02:11:09.761 utils.py:43] nll/eval: 2.0666
+I repo 05-14 02:11:09.761 utils.py:43] nll_pitch/eval: 1.4594
+I repo 05-14 02:11:09.761 utils.py:43] nll_rhythm/eval: 0.6072
+I repo 05-14 02:11:09.761 utils.py:45] accuracy_rhythm/eval: 0.7080
+I repo 05-14 02:11:09.762 utils.py:45] accuracy_pitch/eval: 0.0976
+I repo 05-14 02:11:09.767 trainer.py:125] 
+I repo 05-14 02:11:09.768 trainer.py:126] 10 epoch
+I repo 05-14 02:11:09.768 trainer.py:129] ==========train 10 epoch==========
+I repo 05-14 02:11:10.551 trainer.py:206] 600 training steps
+I repo 05-14 02:11:10.589 utils.py:43] nll: 2.0497
+I repo 05-14 02:11:10.589 utils.py:43] nll_pitch: 1.4917
+I repo 05-14 02:11:10.589 utils.py:43] nll_rhythm: 0.5580
+I repo 05-14 02:11:10.590 utils.py:45] accuracy_rhythm/train: 0.7314
+I repo 05-14 02:11:10.590 utils.py:45] accuracy_pitch/train: 0.1151
+I repo 05-14 02:11:18.745 utils.py:43] nll/train: 2.0481
+I repo 05-14 02:11:18.746 utils.py:43] nll_pitch/train: 1.4659
+I repo 05-14 02:11:18.746 utils.py:43] nll_rhythm/train: 0.5822
+I repo 05-14 02:11:18.746 utils.py:45] accuracy_rhythm/train: 0.7256
+I repo 05-14 02:11:18.746 utils.py:45] accuracy_pitch/train: 0.1123
+I repo 05-14 02:11:18.751 trainer.py:134] ==========valid 10 epoch==========
+I repo 05-14 02:11:18.995 utils.py:43] nll/eval: 1.9055
+I repo 05-14 02:11:18.996 utils.py:43] nll_pitch/eval: 1.2939
+I repo 05-14 02:11:18.996 utils.py:43] nll_rhythm/eval: 0.6116
+I repo 05-14 02:11:18.996 utils.py:45] accuracy_rhythm/eval: 0.7080
+I repo 05-14 02:11:18.996 utils.py:45] accuracy_pitch/eval: 0.0956
+I repo 05-14 02:11:19.002 trainer.py:87] saving model, Epoch 10, step 660
+I repo 05-14 02:11:24.797 trainer.py:251] ==========sampling result of epoch 010==========
+I repo 05-14 02:11:24.811 trainer.py:255] Sample 00 : [14 48 13 49 14 48 49 49 17 49 12 49 13 49 49 49  9 48 48 49]
+I repo 05-14 02:11:25.004 trainer.py:273] Groundtruth 00 : [49 49 49 49 49 49 49 49 49 49 49 49  8 48 11 49 49 49 11 49]
+I repo 05-14 02:11:25.186 trainer.py:255] Sample 01 : [49 49 49 49 49 49 49 17 49 49 19 15 49 49 49 17 49 15 49 15]
+I repo 05-14 02:11:25.376 trainer.py:273] Groundtruth 01 : [49 49 49 49 49 49 49 49 49 49 49 49 14 49 49 49 10 48 48 48]
+I repo 05-14 02:11:25.556 trainer.py:255] Sample 02 : [48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48]
+I repo 05-14 02:11:25.738 trainer.py:273] Groundtruth 02 : [48 48  9 48 48 48 48 48 48 48 48 48 48 48 10 48 48 48 48 48]
+I repo 05-14 02:11:25.919 trainer.py:255] Sample 03 : [49 49 19 49 19 49 49 49 19 49 49 49 19 48 48 48 49 49 49 49]
+I repo 05-14 02:11:26.107 trainer.py:273] Groundtruth 03 : [49 11 49 49 14 49 13 49 49 49 19 48 21 49 49 49 22 21 48 49]
+I repo 05-14 02:11:26.309 trainer.py:255] Sample 04 : [22 49 24 22 24 49 24 22 49 49 49 49 22 22 49 49 49 49 49 22]
+I repo 05-14 02:11:26.493 trainer.py:273] Groundtruth 04 : [49 49 22 49 49 13 16 19 18 16  9  6 12  7  4  9  7 11 14 14]
+I repo 05-14 02:11:26.685 trainer.py:125] 
+I repo 05-14 02:11:26.685 trainer.py:126] 11 epoch
+I repo 05-14 02:11:26.685 trainer.py:129] ==========train 11 epoch==========
+I repo 05-14 02:11:32.151 trainer.py:206] 700 training steps
+I repo 05-14 02:11:32.189 utils.py:43] nll: 1.6997
+I repo 05-14 02:11:32.190 utils.py:43] nll_pitch: 1.1458
+I repo 05-14 02:11:32.190 utils.py:43] nll_rhythm: 0.5539
+I repo 05-14 02:11:32.190 utils.py:45] accuracy_rhythm/train: 0.7437
+I repo 05-14 02:11:32.190 utils.py:45] accuracy_pitch/train: 0.1121
+I repo 05-14 02:11:35.690 utils.py:43] nll/train: 1.8959
+I repo 05-14 02:11:35.691 utils.py:43] nll_pitch/train: 1.3132
+I repo 05-14 02:11:35.691 utils.py:43] nll_rhythm/train: 0.5827
+I repo 05-14 02:11:35.691 utils.py:45] accuracy_rhythm/train: 0.7270
+I repo 05-14 02:11:35.691 utils.py:45] accuracy_pitch/train: 0.1186
+I repo 05-14 02:11:35.696 trainer.py:134] ==========valid 11 epoch==========
+I repo 05-14 02:11:35.954 utils.py:43] nll/eval: 1.7984
+I repo 05-14 02:11:35.954 utils.py:43] nll_pitch/eval: 1.1934
+I repo 05-14 02:11:35.954 utils.py:43] nll_rhythm/eval: 0.6050
+I repo 05-14 02:11:35.955 utils.py:45] accuracy_rhythm/eval: 0.7087
+I repo 05-14 02:11:35.955 utils.py:45] accuracy_pitch/eval: 0.1015
+I repo 05-14 02:11:35.961 trainer.py:125] 
+I repo 05-14 02:11:35.962 trainer.py:126] 12 epoch
+I repo 05-14 02:11:35.962 trainer.py:129] ==========train 12 epoch==========
+I repo 05-14 02:11:44.936 utils.py:43] nll/train: 1.7825
+I repo 05-14 02:11:44.937 utils.py:43] nll_pitch/train: 1.2014
+I repo 05-14 02:11:44.937 utils.py:43] nll_rhythm/train: 0.5811
+I repo 05-14 02:11:44.937 utils.py:45] accuracy_rhythm/train: 0.7273
+I repo 05-14 02:11:44.937 utils.py:45] accuracy_pitch/train: 0.1237
+I repo 05-14 02:11:44.939 trainer.py:134] ==========valid 12 epoch==========
+I repo 05-14 02:11:45.194 utils.py:43] nll/eval: 1.6993
+I repo 05-14 02:11:45.194 utils.py:43] nll_pitch/eval: 1.0912
+I repo 05-14 02:11:45.194 utils.py:43] nll_rhythm/eval: 0.6081
+I repo 05-14 02:11:45.194 utils.py:45] accuracy_rhythm/eval: 0.7075
+I repo 05-14 02:11:45.194 utils.py:45] accuracy_pitch/eval: 0.1073
+I repo 05-14 02:11:45.200 trainer.py:125] 
+I repo 05-14 02:11:45.200 trainer.py:126] 13 epoch
+I repo 05-14 02:11:45.201 trainer.py:129] ==========train 13 epoch==========
+I repo 05-14 02:11:46.253 trainer.py:206] 800 training steps
+I repo 05-14 02:11:46.292 utils.py:43] nll: 1.4852
+I repo 05-14 02:11:46.292 utils.py:43] nll_pitch: 0.9152
+I repo 05-14 02:11:46.293 utils.py:43] nll_rhythm: 0.5700
+I repo 05-14 02:11:46.293 utils.py:45] accuracy_rhythm/train: 0.7356
+I repo 05-14 02:11:46.293 utils.py:45] accuracy_pitch/train: 0.1342
+I repo 05-14 02:11:54.162 utils.py:43] nll/train: 1.6930
+I repo 05-14 02:11:54.162 utils.py:43] nll_pitch/train: 1.1121
+I repo 05-14 02:11:54.162 utils.py:43] nll_rhythm/train: 0.5809
+I repo 05-14 02:11:54.163 utils.py:45] accuracy_rhythm/train: 0.7273
+I repo 05-14 02:11:54.163 utils.py:45] accuracy_pitch/train: 0.1292
+I repo 05-14 02:11:54.168 trainer.py:134] ==========valid 13 epoch==========
+I repo 05-14 02:11:54.421 utils.py:43] nll/eval: 1.6945
+I repo 05-14 02:11:54.422 utils.py:43] nll_pitch/eval: 1.0790
+I repo 05-14 02:11:54.422 utils.py:43] nll_rhythm/eval: 0.6155
+I repo 05-14 02:11:54.422 utils.py:45] accuracy_rhythm/eval: 0.7036
+I repo 05-14 02:11:54.422 utils.py:45] accuracy_pitch/eval: 0.1065
+I repo 05-14 02:11:54.429 trainer.py:125] 
+I repo 05-14 02:11:54.429 trainer.py:126] 14 epoch
+I repo 05-14 02:11:54.429 trainer.py:129] ==========train 14 epoch==========
+I repo 05-14 02:12:00.143 trainer.py:206] 900 training steps
+I repo 05-14 02:12:00.182 utils.py:43] nll: 1.7096
+I repo 05-14 02:12:00.182 utils.py:43] nll_pitch: 1.1077
+I repo 05-14 02:12:00.183 utils.py:43] nll_rhythm: 0.6019
+I repo 05-14 02:12:00.183 utils.py:45] accuracy_rhythm/train: 0.7104
+I repo 05-14 02:12:00.183 utils.py:45] accuracy_pitch/train: 0.1246
+I repo 05-14 02:12:03.399 utils.py:43] nll/train: 1.6303
+I repo 05-14 02:12:03.399 utils.py:43] nll_pitch/train: 1.0492
+I repo 05-14 02:12:03.400 utils.py:43] nll_rhythm/train: 0.5811
+I repo 05-14 02:12:03.400 utils.py:45] accuracy_rhythm/train: 0.7272
+I repo 05-14 02:12:03.400 utils.py:45] accuracy_pitch/train: 0.1339
+I repo 05-14 02:12:03.404 trainer.py:134] ==========valid 14 epoch==========
+I repo 05-14 02:12:03.661 utils.py:43] nll/eval: 1.5187
+I repo 05-14 02:12:03.662 utils.py:43] nll_pitch/eval: 0.9159
+I repo 05-14 02:12:03.662 utils.py:43] nll_rhythm/eval: 0.6028
+I repo 05-14 02:12:03.662 utils.py:45] accuracy_rhythm/eval: 0.7110
+I repo 05-14 02:12:03.662 utils.py:45] accuracy_pitch/eval: 0.1082
+I repo 05-14 02:12:03.668 trainer.py:125] 
+I repo 05-14 02:12:03.668 trainer.py:126] 15 epoch
+I repo 05-14 02:12:03.669 trainer.py:129] ==========train 15 epoch==========
+I repo 05-14 02:12:12.617 utils.py:43] nll/train: 1.5723
+I repo 05-14 02:12:12.618 utils.py:43] nll_pitch/train: 0.9903
+I repo 05-14 02:12:12.618 utils.py:43] nll_rhythm/train: 0.5820
+I repo 05-14 02:12:12.618 utils.py:45] accuracy_rhythm/train: 0.7267
+I repo 05-14 02:12:12.618 utils.py:45] accuracy_pitch/train: 0.1390
+I repo 05-14 02:12:12.621 trainer.py:134] ==========valid 15 epoch==========
+I repo 05-14 02:12:12.879 utils.py:43] nll/eval: 1.5547
+I repo 05-14 02:12:12.880 utils.py:43] nll_pitch/eval: 0.9502
+I repo 05-14 02:12:12.880 utils.py:43] nll_rhythm/eval: 0.6045
+I repo 05-14 02:12:12.880 utils.py:45] accuracy_rhythm/eval: 0.7114
+I repo 05-14 02:12:12.880 utils.py:45] accuracy_pitch/eval: 0.1121
+I repo 05-14 02:12:12.892 trainer.py:125] 
+I repo 05-14 02:12:12.892 trainer.py:126] 16 epoch
+I repo 05-14 02:12:12.892 trainer.py:129] ==========train 16 epoch==========
+I repo 05-14 02:12:14.220 trainer.py:206] 1000 training steps
+I repo 05-14 02:12:14.258 utils.py:43] nll: 1.4697
+I repo 05-14 02:12:14.259 utils.py:43] nll_pitch: 0.8992
+I repo 05-14 02:12:14.259 utils.py:43] nll_rhythm: 0.5705
+I repo 05-14 02:12:14.259 utils.py:45] accuracy_rhythm/train: 0.7278
+I repo 05-14 02:12:14.259 utils.py:45] accuracy_pitch/train: 0.1514
+I repo 05-14 02:12:21.839 utils.py:43] nll/train: 1.5302
+I repo 05-14 02:12:21.839 utils.py:43] nll_pitch/train: 0.9497
+I repo 05-14 02:12:21.839 utils.py:43] nll_rhythm/train: 0.5804
+I repo 05-14 02:12:21.839 utils.py:45] accuracy_rhythm/train: 0.7271
+I repo 05-14 02:12:21.840 utils.py:45] accuracy_pitch/train: 0.1404
+I repo 05-14 02:12:21.844 trainer.py:134] ==========valid 16 epoch==========
+I repo 05-14 02:12:22.098 utils.py:43] nll/eval: 1.4819
+I repo 05-14 02:12:22.099 utils.py:43] nll_pitch/eval: 0.8823
+I repo 05-14 02:12:22.099 utils.py:43] nll_rhythm/eval: 0.5996
+I repo 05-14 02:12:22.099 utils.py:45] accuracy_rhythm/eval: 0.7130
+I repo 05-14 02:12:22.099 utils.py:45] accuracy_pitch/eval: 0.1256
+I repo 05-14 02:12:22.105 trainer.py:125] 
+I repo 05-14 02:12:22.105 trainer.py:126] 17 epoch
+I repo 05-14 02:12:22.106 trainer.py:129] ==========train 17 epoch==========
+I repo 05-14 02:12:28.036 trainer.py:206] 1100 training steps
+I repo 05-14 02:12:28.075 utils.py:43] nll: 1.1859
+I repo 05-14 02:12:28.076 utils.py:43] nll_pitch: 0.6598
+I repo 05-14 02:12:28.076 utils.py:43] nll_rhythm: 0.5261
+I repo 05-14 02:12:28.076 utils.py:45] accuracy_rhythm/train: 0.7539
+I repo 05-14 02:12:28.076 utils.py:45] accuracy_pitch/train: 0.1651
+I repo 05-14 02:12:31.024 utils.py:43] nll/train: 1.4928
+I repo 05-14 02:12:31.025 utils.py:43] nll_pitch/train: 0.9126
+I repo 05-14 02:12:31.025 utils.py:43] nll_rhythm/train: 0.5802
+I repo 05-14 02:12:31.025 utils.py:45] accuracy_rhythm/train: 0.7274
+I repo 05-14 02:12:31.025 utils.py:45] accuracy_pitch/train: 0.1465
+I repo 05-14 02:12:31.029 trainer.py:134] ==========valid 17 epoch==========
+I repo 05-14 02:12:31.283 utils.py:43] nll/eval: 1.4314
+I repo 05-14 02:12:31.284 utils.py:43] nll_pitch/eval: 0.8246
+I repo 05-14 02:12:31.284 utils.py:43] nll_rhythm/eval: 0.6068
+I repo 05-14 02:12:31.284 utils.py:45] accuracy_rhythm/eval: 0.7109
+I repo 05-14 02:12:31.284 utils.py:45] accuracy_pitch/eval: 0.1212
+I repo 05-14 02:12:31.290 trainer.py:125] 
+I repo 05-14 02:12:31.290 trainer.py:126] 18 epoch
+I repo 05-14 02:12:31.291 trainer.py:129] ==========train 18 epoch==========
+I repo 05-14 02:12:40.227 utils.py:43] nll/train: 1.4571
+I repo 05-14 02:12:40.228 utils.py:43] nll_pitch/train: 0.8760
+I repo 05-14 02:12:40.228 utils.py:43] nll_rhythm/train: 0.5810
+I repo 05-14 02:12:40.228 utils.py:45] accuracy_rhythm/train: 0.7270
+I repo 05-14 02:12:40.228 utils.py:45] accuracy_pitch/train: 0.1494
+I repo 05-14 02:12:40.231 trainer.py:134] ==========valid 18 epoch==========
+I repo 05-14 02:12:40.487 utils.py:43] nll/eval: 1.4451
+I repo 05-14 02:12:40.488 utils.py:43] nll_pitch/eval: 0.8361
+I repo 05-14 02:12:40.488 utils.py:43] nll_rhythm/eval: 0.6089
+I repo 05-14 02:12:40.488 utils.py:45] accuracy_rhythm/eval: 0.7069
+I repo 05-14 02:12:40.488 utils.py:45] accuracy_pitch/eval: 0.1219
+I repo 05-14 02:12:40.493 trainer.py:125] 
+I repo 05-14 02:12:40.494 trainer.py:126] 19 epoch
+I repo 05-14 02:12:40.494 trainer.py:129] ==========train 19 epoch==========
+I repo 05-14 02:12:42.091 trainer.py:206] 1200 training steps
+I repo 05-14 02:12:42.129 utils.py:43] nll: 1.4982
+I repo 05-14 02:12:42.130 utils.py:43] nll_pitch: 0.8449
+I repo 05-14 02:12:42.130 utils.py:43] nll_rhythm: 0.6533
+I repo 05-14 02:12:42.130 utils.py:45] accuracy_rhythm/train: 0.6958
+I repo 05-14 02:12:42.130 utils.py:45] accuracy_pitch/train: 0.1546
+I repo 05-14 02:12:49.426 utils.py:43] nll/train: 1.4272
+I repo 05-14 02:12:49.427 utils.py:43] nll_pitch/train: 0.8466
+I repo 05-14 02:12:49.427 utils.py:43] nll_rhythm/train: 0.5807
+I repo 05-14 02:12:49.427 utils.py:45] accuracy_rhythm/train: 0.7280
+I repo 05-14 02:12:49.427 utils.py:45] accuracy_pitch/train: 0.1517
+I repo 05-14 02:12:49.432 trainer.py:134] ==========valid 19 epoch==========
+I repo 05-14 02:12:49.685 utils.py:43] nll/eval: 1.4337
+I repo 05-14 02:12:49.686 utils.py:43] nll_pitch/eval: 0.8307
+I repo 05-14 02:12:49.686 utils.py:43] nll_rhythm/eval: 0.6030
+I repo 05-14 02:12:49.686 utils.py:45] accuracy_rhythm/eval: 0.7110
+I repo 05-14 02:12:49.686 utils.py:45] accuracy_pitch/eval: 0.1235
+I repo 05-14 02:12:49.692 trainer.py:125] 
+I repo 05-14 02:12:49.692 trainer.py:126] 20 epoch
+I repo 05-14 02:12:49.692 trainer.py:129] ==========train 20 epoch==========
+I repo 05-14 02:12:55.875 trainer.py:206] 1300 training steps
+I repo 05-14 02:12:55.915 utils.py:43] nll: 1.5252
+I repo 05-14 02:12:55.915 utils.py:43] nll_pitch: 0.9215
+I repo 05-14 02:12:55.915 utils.py:43] nll_rhythm: 0.6037
+I repo 05-14 02:12:55.916 utils.py:45] accuracy_rhythm/train: 0.7163
+I repo 05-14 02:12:55.916 utils.py:45] accuracy_pitch/train: 0.1722
+I repo 05-14 02:12:58.594 utils.py:43] nll/train: 1.4023
+I repo 05-14 02:12:58.595 utils.py:43] nll_pitch/train: 0.8223
+I repo 05-14 02:12:58.595 utils.py:43] nll_rhythm/train: 0.5800
+I repo 05-14 02:12:58.595 utils.py:45] accuracy_rhythm/train: 0.7272
+I repo 05-14 02:12:58.595 utils.py:45] accuracy_pitch/train: 0.1560
+I repo 05-14 02:12:58.599 trainer.py:134] ==========valid 20 epoch==========
+I repo 05-14 02:12:58.861 utils.py:43] nll/eval: 1.3962
+I repo 05-14 02:12:58.861 utils.py:43] nll_pitch/eval: 0.7948
+I repo 05-14 02:12:58.861 utils.py:43] nll_rhythm/eval: 0.6014
+I repo 05-14 02:12:58.861 utils.py:45] accuracy_rhythm/eval: 0.7112
+I repo 05-14 02:12:58.861 utils.py:45] accuracy_pitch/eval: 0.1407
+I repo 05-14 02:12:58.867 trainer.py:87] saving model, Epoch 20, step 1320
+I repo 05-14 02:13:04.714 trainer.py:251] ==========sampling result of epoch 020==========
+I repo 05-14 02:13:04.726 trainer.py:255] Sample 00 : [49 12 48 49  6 48 48 49 49 49 49 49  6 49 49 49  8 48 48 49]
+I repo 05-14 02:13:04.909 trainer.py:273] Groundtruth 00 : [ 8 49 49 49  8 48 49 49 49 49 49 49  4 48 49 49  5 48 49 49]
+I repo 05-14 02:13:05.096 trainer.py:255] Sample 01 : [12 49 49 49 49 16 49 49 49 49 49 49 49 49 49 49 49 49 49 49]
+I repo 05-14 02:13:05.282 trainer.py:273] Groundtruth 01 : [49 15 14 49 19 49 49 49 14 49 49 14 49 49 49 49 49 49 13 48]
+I repo 05-14 02:13:05.617 trainer.py:255] Sample 02 : [17 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 14 48 48 48]
+I repo 05-14 02:13:05.787 trainer.py:273] Groundtruth 02 : [48 48  9 48 48 48 48 48 48 48 48 48 48 48 10 48 48 48 48 48]
+I repo 05-14 02:13:05.963 trainer.py:255] Sample 03 : [49 49 49 49 49 49 21 49 21 49 21 49 49 19 49 49 19 49 49 49]
+I repo 05-14 02:13:06.140 trainer.py:273] Groundtruth 03 : [49 49 49 49 49  4 49 49  5 49 49 49  6 48 49 49  7 49 49 49]
+I repo 05-14 02:13:06.328 trainer.py:255] Sample 04 : [49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 22 49 21 49]
+I repo 05-14 02:13:06.515 trainer.py:273] Groundtruth 04 : [49 49 49 49 49 26 49 49 49 49 49 49 49 49 49 49 26 49 49 49]
+I repo 05-14 02:13:06.705 trainer.py:125] 
+I repo 05-14 02:13:06.705 trainer.py:126] 21 epoch
+I repo 05-14 02:13:06.706 trainer.py:129] ==========train 21 epoch==========
+I repo 05-14 02:13:15.716 utils.py:43] nll/train: 1.3830
+I repo 05-14 02:13:15.717 utils.py:43] nll_pitch/train: 0.8017
+I repo 05-14 02:13:15.717 utils.py:43] nll_rhythm/train: 0.5812
+I repo 05-14 02:13:15.717 utils.py:45] accuracy_rhythm/train: 0.7278
+I repo 05-14 02:13:15.717 utils.py:45] accuracy_pitch/train: 0.1597
+I repo 05-14 02:13:15.720 trainer.py:134] ==========valid 21 epoch==========
+I repo 05-14 02:13:15.973 utils.py:43] nll/eval: 1.3757
+I repo 05-14 02:13:15.974 utils.py:43] nll_pitch/eval: 0.7776
+I repo 05-14 02:13:15.974 utils.py:43] nll_rhythm/eval: 0.5982
+I repo 05-14 02:13:15.974 utils.py:45] accuracy_rhythm/eval: 0.7151
+I repo 05-14 02:13:15.974 utils.py:45] accuracy_pitch/eval: 0.1362
+I repo 05-14 02:13:15.980 trainer.py:125] 
+I repo 05-14 02:13:15.981 trainer.py:126] 22 epoch
+I repo 05-14 02:13:15.981 trainer.py:129] ==========train 22 epoch==========
+I repo 05-14 02:13:17.854 trainer.py:206] 1400 training steps
+I repo 05-14 02:13:17.892 utils.py:43] nll: 1.3826
+I repo 05-14 02:13:17.893 utils.py:43] nll_pitch: 0.7633
+I repo 05-14 02:13:17.893 utils.py:43] nll_rhythm: 0.6193
+I repo 05-14 02:13:17.893 utils.py:45] accuracy_rhythm/train: 0.7173
+I repo 05-14 02:13:17.893 utils.py:45] accuracy_pitch/train: 0.1701
+I repo 05-14 02:13:24.952 utils.py:43] nll/train: 1.3636
+I repo 05-14 02:13:24.953 utils.py:43] nll_pitch/train: 0.7827
+I repo 05-14 02:13:24.953 utils.py:43] nll_rhythm/train: 0.5809
+I repo 05-14 02:13:24.953 utils.py:45] accuracy_rhythm/train: 0.7272
+I repo 05-14 02:13:24.953 utils.py:45] accuracy_pitch/train: 0.1614
+I repo 05-14 02:13:24.957 trainer.py:134] ==========valid 22 epoch==========
+I repo 05-14 02:13:25.211 utils.py:43] nll/eval: 1.3992
+I repo 05-14 02:13:25.211 utils.py:43] nll_pitch/eval: 0.7984
+I repo 05-14 02:13:25.211 utils.py:43] nll_rhythm/eval: 0.6008
+I repo 05-14 02:13:25.211 utils.py:45] accuracy_rhythm/eval: 0.7126
+I repo 05-14 02:13:25.211 utils.py:45] accuracy_pitch/eval: 0.1210
+I repo 05-14 02:13:25.217 trainer.py:125] 
+I repo 05-14 02:13:25.218 trainer.py:126] 23 epoch
+I repo 05-14 02:13:25.218 trainer.py:129] ==========train 23 epoch==========
+I repo 05-14 02:13:31.702 trainer.py:206] 1500 training steps
+I repo 05-14 02:13:31.740 utils.py:43] nll: 1.2336
+I repo 05-14 02:13:31.740 utils.py:43] nll_pitch: 0.6702
+I repo 05-14 02:13:31.740 utils.py:43] nll_rhythm: 0.5635
+I repo 05-14 02:13:31.740 utils.py:45] accuracy_rhythm/train: 0.7429
+I repo 05-14 02:13:31.740 utils.py:45] accuracy_pitch/train: 0.1668
+I repo 05-14 02:13:34.147 utils.py:43] nll/train: 1.3466
+I repo 05-14 02:13:34.147 utils.py:43] nll_pitch/train: 0.7664
+I repo 05-14 02:13:34.147 utils.py:43] nll_rhythm/train: 0.5802
+I repo 05-14 02:13:34.147 utils.py:45] accuracy_rhythm/train: 0.7281
+I repo 05-14 02:13:34.147 utils.py:45] accuracy_pitch/train: 0.1672
+I repo 05-14 02:13:34.151 trainer.py:134] ==========valid 23 epoch==========
+I repo 05-14 02:13:34.407 utils.py:43] nll/eval: 1.4005
+I repo 05-14 02:13:34.407 utils.py:43] nll_pitch/eval: 0.7974
+I repo 05-14 02:13:34.407 utils.py:43] nll_rhythm/eval: 0.6031
+I repo 05-14 02:13:34.407 utils.py:45] accuracy_rhythm/eval: 0.7092
+I repo 05-14 02:13:34.407 utils.py:45] accuracy_pitch/eval: 0.1171
+I repo 05-14 02:13:34.408 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:13:34.408 trainer.py:102] adjusting learning rate from 0.000100 to 0.000050
+I repo 05-14 02:13:34.414 trainer.py:125] 
+I repo 05-14 02:13:34.414 trainer.py:126] 24 epoch
+I repo 05-14 02:13:34.414 trainer.py:129] ==========train 24 epoch==========
+I repo 05-14 02:13:43.364 utils.py:43] nll/train: 1.3249
+I repo 05-14 02:13:43.365 utils.py:43] nll_pitch/train: 0.7441
+I repo 05-14 02:13:43.365 utils.py:43] nll_rhythm/train: 0.5808
+I repo 05-14 02:13:43.365 utils.py:45] accuracy_rhythm/train: 0.7267
+I repo 05-14 02:13:43.365 utils.py:45] accuracy_pitch/train: 0.1685
+I repo 05-14 02:13:43.367 trainer.py:134] ==========valid 24 epoch==========
+I repo 05-14 02:13:43.626 utils.py:43] nll/eval: 1.3624
+I repo 05-14 02:13:43.626 utils.py:43] nll_pitch/eval: 0.7577
+I repo 05-14 02:13:43.626 utils.py:43] nll_rhythm/eval: 0.6048
+I repo 05-14 02:13:43.626 utils.py:45] accuracy_rhythm/eval: 0.7109
+I repo 05-14 02:13:43.627 utils.py:45] accuracy_pitch/eval: 0.1322
+I repo 05-14 02:13:43.632 trainer.py:125] 
+I repo 05-14 02:13:43.632 trainer.py:126] 25 epoch
+I repo 05-14 02:13:43.632 trainer.py:129] ==========train 25 epoch==========
+I repo 05-14 02:13:45.768 trainer.py:206] 1600 training steps
+I repo 05-14 02:13:45.806 utils.py:43] nll: 1.1925
+I repo 05-14 02:13:45.807 utils.py:43] nll_pitch: 0.6213
+I repo 05-14 02:13:45.807 utils.py:43] nll_rhythm: 0.5712
+I repo 05-14 02:13:45.807 utils.py:45] accuracy_rhythm/train: 0.7361
+I repo 05-14 02:13:45.808 utils.py:45] accuracy_pitch/train: 0.1723
+I repo 05-14 02:13:52.602 utils.py:43] nll/train: 1.3144
+I repo 05-14 02:13:52.602 utils.py:43] nll_pitch/train: 0.7346
+I repo 05-14 02:13:52.602 utils.py:43] nll_rhythm/train: 0.5798
+I repo 05-14 02:13:52.602 utils.py:45] accuracy_rhythm/train: 0.7276
+I repo 05-14 02:13:52.602 utils.py:45] accuracy_pitch/train: 0.1732
+I repo 05-14 02:13:52.606 trainer.py:134] ==========valid 25 epoch==========
+I repo 05-14 02:13:52.861 utils.py:43] nll/eval: 1.3352
+I repo 05-14 02:13:52.861 utils.py:43] nll_pitch/eval: 0.7258
+I repo 05-14 02:13:52.862 utils.py:43] nll_rhythm/eval: 0.6094
+I repo 05-14 02:13:52.862 utils.py:45] accuracy_rhythm/eval: 0.7077
+I repo 05-14 02:13:52.862 utils.py:45] accuracy_pitch/eval: 0.1472
+I repo 05-14 02:13:52.867 trainer.py:125] 
+I repo 05-14 02:13:52.868 trainer.py:126] 26 epoch
+I repo 05-14 02:13:52.868 trainer.py:129] ==========train 26 epoch==========
+I repo 05-14 02:13:59.627 trainer.py:206] 1700 training steps
+I repo 05-14 02:13:59.662 utils.py:43] nll: 1.4526
+I repo 05-14 02:13:59.663 utils.py:43] nll_pitch: 0.8530
+I repo 05-14 02:13:59.663 utils.py:43] nll_rhythm: 0.5996
+I repo 05-14 02:13:59.663 utils.py:45] accuracy_rhythm/train: 0.7092
+I repo 05-14 02:13:59.663 utils.py:45] accuracy_pitch/train: 0.1665
+I repo 05-14 02:14:01.825 utils.py:43] nll/train: 1.3078
+I repo 05-14 02:14:01.826 utils.py:43] nll_pitch/train: 0.7273
+I repo 05-14 02:14:01.826 utils.py:43] nll_rhythm/train: 0.5805
+I repo 05-14 02:14:01.826 utils.py:45] accuracy_rhythm/train: 0.7275
+I repo 05-14 02:14:01.826 utils.py:45] accuracy_pitch/train: 0.1747
+I repo 05-14 02:14:01.831 trainer.py:134] ==========valid 26 epoch==========
+I repo 05-14 02:14:02.089 utils.py:43] nll/eval: 1.3188
+I repo 05-14 02:14:02.089 utils.py:43] nll_pitch/eval: 0.7227
+I repo 05-14 02:14:02.089 utils.py:43] nll_rhythm/eval: 0.5961
+I repo 05-14 02:14:02.089 utils.py:45] accuracy_rhythm/eval: 0.7137
+I repo 05-14 02:14:02.089 utils.py:45] accuracy_pitch/eval: 0.1267
+I repo 05-14 02:14:02.095 trainer.py:125] 
+I repo 05-14 02:14:02.095 trainer.py:126] 27 epoch
+I repo 05-14 02:14:02.096 trainer.py:129] ==========train 27 epoch==========
+I repo 05-14 02:14:11.047 utils.py:43] nll/train: 1.2940
+I repo 05-14 02:14:11.047 utils.py:43] nll_pitch/train: 0.7137
+I repo 05-14 02:14:11.048 utils.py:43] nll_rhythm/train: 0.5803
+I repo 05-14 02:14:11.048 utils.py:45] accuracy_rhythm/train: 0.7277
+I repo 05-14 02:14:11.048 utils.py:45] accuracy_pitch/train: 0.1775
+I repo 05-14 02:14:11.050 trainer.py:134] ==========valid 27 epoch==========
+I repo 05-14 02:14:11.308 utils.py:43] nll/eval: 1.3355
+I repo 05-14 02:14:11.308 utils.py:43] nll_pitch/eval: 0.7295
+I repo 05-14 02:14:11.308 utils.py:43] nll_rhythm/eval: 0.6060
+I repo 05-14 02:14:11.308 utils.py:45] accuracy_rhythm/eval: 0.7094
+I repo 05-14 02:14:11.308 utils.py:45] accuracy_pitch/eval: 0.1413
+I repo 05-14 02:14:11.314 trainer.py:125] 
+I repo 05-14 02:14:11.314 trainer.py:126] 28 epoch
+I repo 05-14 02:14:11.314 trainer.py:129] ==========train 28 epoch==========
+I repo 05-14 02:14:13.731 trainer.py:206] 1800 training steps
+I repo 05-14 02:14:13.769 utils.py:43] nll: 1.3633
+I repo 05-14 02:14:13.769 utils.py:43] nll_pitch: 0.7574
+I repo 05-14 02:14:13.769 utils.py:43] nll_rhythm: 0.6059
+I repo 05-14 02:14:13.769 utils.py:45] accuracy_rhythm/train: 0.7153
+I repo 05-14 02:14:13.769 utils.py:45] accuracy_pitch/train: 0.1837
+I repo 05-14 02:14:20.270 utils.py:43] nll/train: 1.2917
+I repo 05-14 02:14:20.270 utils.py:43] nll_pitch/train: 0.7112
+I repo 05-14 02:14:20.270 utils.py:43] nll_rhythm/train: 0.5805
+I repo 05-14 02:14:20.270 utils.py:45] accuracy_rhythm/train: 0.7279
+I repo 05-14 02:14:20.271 utils.py:45] accuracy_pitch/train: 0.1768
+I repo 05-14 02:14:20.274 trainer.py:134] ==========valid 28 epoch==========
+I repo 05-14 02:14:20.529 utils.py:43] nll/eval: 1.3153
+I repo 05-14 02:14:20.529 utils.py:43] nll_pitch/eval: 0.7140
+I repo 05-14 02:14:20.529 utils.py:43] nll_rhythm/eval: 0.6013
+I repo 05-14 02:14:20.529 utils.py:45] accuracy_rhythm/eval: 0.7112
+I repo 05-14 02:14:20.529 utils.py:45] accuracy_pitch/eval: 0.1373
+I repo 05-14 02:14:20.535 trainer.py:125] 
+I repo 05-14 02:14:20.535 trainer.py:126] 29 epoch
+I repo 05-14 02:14:20.535 trainer.py:129] ==========train 29 epoch==========
+I repo 05-14 02:14:27.575 trainer.py:206] 1900 training steps
+I repo 05-14 02:14:27.613 utils.py:43] nll: 1.4367
+I repo 05-14 02:14:27.613 utils.py:43] nll_pitch: 0.8371
+I repo 05-14 02:14:27.613 utils.py:43] nll_rhythm: 0.5996
+I repo 05-14 02:14:27.614 utils.py:45] accuracy_rhythm/train: 0.7200
+I repo 05-14 02:14:27.614 utils.py:45] accuracy_pitch/train: 0.1738
+I repo 05-14 02:14:29.487 utils.py:43] nll/train: 1.2841
+I repo 05-14 02:14:29.488 utils.py:43] nll_pitch/train: 0.7041
+I repo 05-14 02:14:29.488 utils.py:43] nll_rhythm/train: 0.5801
+I repo 05-14 02:14:29.488 utils.py:45] accuracy_rhythm/train: 0.7284
+I repo 05-14 02:14:29.488 utils.py:45] accuracy_pitch/train: 0.1785
+I repo 05-14 02:14:29.492 trainer.py:134] ==========valid 29 epoch==========
+I repo 05-14 02:14:29.742 utils.py:43] nll/eval: 1.3366
+I repo 05-14 02:14:29.742 utils.py:43] nll_pitch/eval: 0.7328
+I repo 05-14 02:14:29.742 utils.py:43] nll_rhythm/eval: 0.6038
+I repo 05-14 02:14:29.743 utils.py:45] accuracy_rhythm/eval: 0.7085
+I repo 05-14 02:14:29.743 utils.py:45] accuracy_pitch/eval: 0.1414
+I repo 05-14 02:14:29.743 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:14:29.743 trainer.py:102] adjusting learning rate from 0.000050 to 0.000025
+I repo 05-14 02:14:29.748 trainer.py:125] 
+I repo 05-14 02:14:29.748 trainer.py:126] 30 epoch
+I repo 05-14 02:14:29.749 trainer.py:129] ==========train 30 epoch==========
+I repo 05-14 02:14:38.701 utils.py:43] nll/train: 1.2725
+I repo 05-14 02:14:38.701 utils.py:43] nll_pitch/train: 0.6928
+I repo 05-14 02:14:38.702 utils.py:43] nll_rhythm/train: 0.5797
+I repo 05-14 02:14:38.702 utils.py:45] accuracy_rhythm/train: 0.7273
+I repo 05-14 02:14:38.702 utils.py:45] accuracy_pitch/train: 0.1802
+I repo 05-14 02:14:38.705 trainer.py:134] ==========valid 30 epoch==========
+I repo 05-14 02:14:38.961 utils.py:43] nll/eval: 1.3216
+I repo 05-14 02:14:38.962 utils.py:43] nll_pitch/eval: 0.7145
+I repo 05-14 02:14:38.962 utils.py:43] nll_rhythm/eval: 0.6071
+I repo 05-14 02:14:38.962 utils.py:45] accuracy_rhythm/eval: 0.7062
+I repo 05-14 02:14:38.962 utils.py:45] accuracy_pitch/eval: 0.1408
+I repo 05-14 02:14:38.968 trainer.py:87] saving model, Epoch 30, step 1980
+I repo 05-14 02:14:44.671 trainer.py:251] ==========sampling result of epoch 030==========
+I repo 05-14 02:14:44.683 trainer.py:255] Sample 00 : [49 49 49 49 15 49 49 49 17 48 48 48 12 48 48 48 48 49 49 49]
+I repo 05-14 02:14:44.868 trainer.py:273] Groundtruth 00 : [ 9 49 49 49 10 49 49 49  9 49 49 49  5 48 48 48 48 48 48 48]
+I repo 05-14 02:14:45.054 trainer.py:255] Sample 01 : [49 49 49 49 49 49 49 49 49 10 48 49 49 49 10 49  9 48 49 49]
+I repo 05-14 02:14:45.258 trainer.py:273] Groundtruth 01 : [12 10 48  4 49 49 49 49  3 48 48 48  6 10 49 13 10  8  6  1]
+I repo 05-14 02:14:45.456 trainer.py:255] Sample 02 : [49 49 49 49 49 49 49 17 16 14 16 14 12 16 14 12 12 49 49 49]
+I repo 05-14 02:14:45.644 trainer.py:273] Groundtruth 02 : [49 49 20 15 49 49 11 12 48 48 16 17 48 19 21 22 48 48 48 48]
+I repo 05-14 02:14:45.832 trainer.py:255] Sample 03 : [22 48 24 49 20 48 49 49 17 48 48 48 49 49 49 49 21 49 49 21]
+I repo 05-14 02:14:46.016 trainer.py:273] Groundtruth 03 : [49 49 49 49 17 49 16 49 20 18 49 15 49 15 48 49 24 49 49 15]
+I repo 05-14 02:14:46.213 trainer.py:255] Sample 04 : [49 17 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 14]
+I repo 05-14 02:14:46.575 trainer.py:273] Groundtruth 04 : [48 48 49 49 19 48 48 49 49 17 49 49 49 22 26 49 29 49 33 49]
+I repo 05-14 02:14:46.756 trainer.py:125] 
+I repo 05-14 02:14:46.756 trainer.py:126] 31 epoch
+I repo 05-14 02:14:46.756 trainer.py:129] ==========train 31 epoch==========
+I repo 05-14 02:14:49.483 trainer.py:206] 2000 training steps
+I repo 05-14 02:14:49.519 utils.py:43] nll: 1.1865
+I repo 05-14 02:14:49.519 utils.py:43] nll_pitch: 0.6372
+I repo 05-14 02:14:49.520 utils.py:43] nll_rhythm: 0.5493
+I repo 05-14 02:14:49.520 utils.py:45] accuracy_rhythm/train: 0.7510
+I repo 05-14 02:14:49.520 utils.py:45] accuracy_pitch/train: 0.1668
+I repo 05-14 02:14:55.750 utils.py:43] nll/train: 1.2706
+I repo 05-14 02:14:55.751 utils.py:43] nll_pitch/train: 0.6903
+I repo 05-14 02:14:55.751 utils.py:43] nll_rhythm/train: 0.5803
+I repo 05-14 02:14:55.751 utils.py:45] accuracy_rhythm/train: 0.7276
+I repo 05-14 02:14:55.751 utils.py:45] accuracy_pitch/train: 0.1843
+I repo 05-14 02:14:55.755 trainer.py:134] ==========valid 31 epoch==========
+I repo 05-14 02:14:56.012 utils.py:43] nll/eval: 1.3142
+I repo 05-14 02:14:56.013 utils.py:43] nll_pitch/eval: 0.7087
+I repo 05-14 02:14:56.013 utils.py:43] nll_rhythm/eval: 0.6055
+I repo 05-14 02:14:56.013 utils.py:45] accuracy_rhythm/eval: 0.7068
+I repo 05-14 02:14:56.013 utils.py:45] accuracy_pitch/eval: 0.1392
+I repo 05-14 02:14:56.019 trainer.py:125] 
+I repo 05-14 02:14:56.019 trainer.py:126] 32 epoch
+I repo 05-14 02:14:56.020 trainer.py:129] ==========train 32 epoch==========
+I repo 05-14 02:15:03.334 trainer.py:206] 2100 training steps
+I repo 05-14 02:15:03.367 utils.py:43] nll: 1.1992
+I repo 05-14 02:15:03.368 utils.py:43] nll_pitch: 0.6198
+I repo 05-14 02:15:03.368 utils.py:43] nll_rhythm: 0.5794
+I repo 05-14 02:15:03.368 utils.py:45] accuracy_rhythm/train: 0.7124
+I repo 05-14 02:15:03.368 utils.py:45] accuracy_pitch/train: 0.1998
+I repo 05-14 02:15:04.970 utils.py:43] nll/train: 1.2662
+I repo 05-14 02:15:04.971 utils.py:43] nll_pitch/train: 0.6860
+I repo 05-14 02:15:04.971 utils.py:43] nll_rhythm/train: 0.5802
+I repo 05-14 02:15:04.971 utils.py:45] accuracy_rhythm/train: 0.7272
+I repo 05-14 02:15:04.971 utils.py:45] accuracy_pitch/train: 0.1842
+I repo 05-14 02:15:04.975 trainer.py:134] ==========valid 32 epoch==========
+I repo 05-14 02:15:05.230 utils.py:43] nll/eval: 1.3061
+I repo 05-14 02:15:05.231 utils.py:43] nll_pitch/eval: 0.7044
+I repo 05-14 02:15:05.231 utils.py:43] nll_rhythm/eval: 0.6018
+I repo 05-14 02:15:05.231 utils.py:45] accuracy_rhythm/eval: 0.7129
+I repo 05-14 02:15:05.231 utils.py:45] accuracy_pitch/eval: 0.1468
+I repo 05-14 02:15:05.237 trainer.py:125] 
+I repo 05-14 02:15:05.237 trainer.py:126] 33 epoch
+I repo 05-14 02:15:05.237 trainer.py:129] ==========train 33 epoch==========
+I repo 05-14 02:15:14.148 utils.py:43] nll/train: 1.2653
+I repo 05-14 02:15:14.148 utils.py:43] nll_pitch/train: 0.6842
+I repo 05-14 02:15:14.149 utils.py:43] nll_rhythm/train: 0.5812
+I repo 05-14 02:15:14.149 utils.py:45] accuracy_rhythm/train: 0.7273
+I repo 05-14 02:15:14.149 utils.py:45] accuracy_pitch/train: 0.1847
+I repo 05-14 02:15:14.152 trainer.py:134] ==========valid 33 epoch==========
+I repo 05-14 02:15:14.408 utils.py:43] nll/eval: 1.3565
+I repo 05-14 02:15:14.409 utils.py:43] nll_pitch/eval: 0.7494
+I repo 05-14 02:15:14.409 utils.py:43] nll_rhythm/eval: 0.6072
+I repo 05-14 02:15:14.409 utils.py:45] accuracy_rhythm/eval: 0.7080
+I repo 05-14 02:15:14.409 utils.py:45] accuracy_pitch/eval: 0.1314
+I repo 05-14 02:15:14.410 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:15:14.410 trainer.py:102] adjusting learning rate from 0.000025 to 0.000013
+I repo 05-14 02:15:14.415 trainer.py:125] 
+I repo 05-14 02:15:14.416 trainer.py:126] 34 epoch
+I repo 05-14 02:15:14.416 trainer.py:129] ==========train 34 epoch==========
+I repo 05-14 02:15:17.373 trainer.py:206] 2200 training steps
+I repo 05-14 02:15:17.412 utils.py:43] nll: 1.1087
+I repo 05-14 02:15:17.412 utils.py:43] nll_pitch: 0.5784
+I repo 05-14 02:15:17.412 utils.py:43] nll_rhythm: 0.5304
+I repo 05-14 02:15:17.412 utils.py:45] accuracy_rhythm/train: 0.7527
+I repo 05-14 02:15:17.413 utils.py:45] accuracy_pitch/train: 0.1540
+I repo 05-14 02:15:23.353 utils.py:43] nll/train: 1.2606
+I repo 05-14 02:15:23.353 utils.py:43] nll_pitch/train: 0.6805
+I repo 05-14 02:15:23.353 utils.py:43] nll_rhythm/train: 0.5801
+I repo 05-14 02:15:23.354 utils.py:45] accuracy_rhythm/train: 0.7277
+I repo 05-14 02:15:23.354 utils.py:45] accuracy_pitch/train: 0.1853
+I repo 05-14 02:15:23.359 trainer.py:134] ==========valid 34 epoch==========
+I repo 05-14 02:15:23.614 utils.py:43] nll/eval: 1.3250
+I repo 05-14 02:15:23.614 utils.py:43] nll_pitch/eval: 0.7230
+I repo 05-14 02:15:23.614 utils.py:43] nll_rhythm/eval: 0.6020
+I repo 05-14 02:15:23.614 utils.py:45] accuracy_rhythm/eval: 0.7106
+I repo 05-14 02:15:23.614 utils.py:45] accuracy_pitch/eval: 0.1440
+I repo 05-14 02:15:23.620 trainer.py:125] 
+I repo 05-14 02:15:23.620 trainer.py:126] 35 epoch
+I repo 05-14 02:15:23.620 trainer.py:129] ==========train 35 epoch==========
+I repo 05-14 02:15:31.213 trainer.py:206] 2300 training steps
+I repo 05-14 02:15:31.252 utils.py:43] nll: 1.2208
+I repo 05-14 02:15:31.252 utils.py:43] nll_pitch: 0.6470
+I repo 05-14 02:15:31.252 utils.py:43] nll_rhythm: 0.5738
+I repo 05-14 02:15:31.253 utils.py:45] accuracy_rhythm/train: 0.7280
+I repo 05-14 02:15:31.253 utils.py:45] accuracy_pitch/train: 0.1702
+I repo 05-14 02:15:32.574 utils.py:43] nll/train: 1.2555
+I repo 05-14 02:15:32.575 utils.py:43] nll_pitch/train: 0.6753
+I repo 05-14 02:15:32.575 utils.py:43] nll_rhythm/train: 0.5802
+I repo 05-14 02:15:32.575 utils.py:45] accuracy_rhythm/train: 0.7278
+I repo 05-14 02:15:32.575 utils.py:45] accuracy_pitch/train: 0.1869
+I repo 05-14 02:15:32.579 trainer.py:134] ==========valid 35 epoch==========
+I repo 05-14 02:15:32.838 utils.py:43] nll/eval: 1.3244
+I repo 05-14 02:15:32.839 utils.py:43] nll_pitch/eval: 0.7221
+I repo 05-14 02:15:32.839 utils.py:43] nll_rhythm/eval: 0.6024
+I repo 05-14 02:15:32.839 utils.py:45] accuracy_rhythm/eval: 0.7103
+I repo 05-14 02:15:32.839 utils.py:45] accuracy_pitch/eval: 0.1383
+I repo 05-14 02:15:32.845 trainer.py:125] 
+I repo 05-14 02:15:32.845 trainer.py:126] 36 epoch
+I repo 05-14 02:15:32.845 trainer.py:129] ==========train 36 epoch==========
+I repo 05-14 02:15:41.806 utils.py:43] nll/train: 1.2522
+I repo 05-14 02:15:41.806 utils.py:43] nll_pitch/train: 0.6723
+I repo 05-14 02:15:41.806 utils.py:43] nll_rhythm/train: 0.5800
+I repo 05-14 02:15:41.806 utils.py:45] accuracy_rhythm/train: 0.7273
+I repo 05-14 02:15:41.806 utils.py:45] accuracy_pitch/train: 0.1866
+I repo 05-14 02:15:41.809 trainer.py:134] ==========valid 36 epoch==========
+I repo 05-14 02:15:42.064 utils.py:43] nll/eval: 1.3000
+I repo 05-14 02:15:42.065 utils.py:43] nll_pitch/eval: 0.7043
+I repo 05-14 02:15:42.065 utils.py:43] nll_rhythm/eval: 0.5958
+I repo 05-14 02:15:42.065 utils.py:45] accuracy_rhythm/eval: 0.7148
+I repo 05-14 02:15:42.065 utils.py:45] accuracy_pitch/eval: 0.1415
+I repo 05-14 02:15:42.078 trainer.py:125] 
+I repo 05-14 02:15:42.078 trainer.py:126] 37 epoch
+I repo 05-14 02:15:42.079 trainer.py:129] ==========train 37 epoch==========
+I repo 05-14 02:15:45.312 trainer.py:206] 2400 training steps
+I repo 05-14 02:15:45.350 utils.py:43] nll: 1.2703
+I repo 05-14 02:15:45.351 utils.py:43] nll_pitch: 0.7137
+I repo 05-14 02:15:45.351 utils.py:43] nll_rhythm: 0.5566
+I repo 05-14 02:15:45.351 utils.py:45] accuracy_rhythm/train: 0.7344
+I repo 05-14 02:15:45.351 utils.py:45] accuracy_pitch/train: 0.1821
+I repo 05-14 02:15:51.009 utils.py:43] nll/train: 1.2509
+I repo 05-14 02:15:51.009 utils.py:43] nll_pitch/train: 0.6714
+I repo 05-14 02:15:51.009 utils.py:43] nll_rhythm/train: 0.5795
+I repo 05-14 02:15:51.009 utils.py:45] accuracy_rhythm/train: 0.7277
+I repo 05-14 02:15:51.010 utils.py:45] accuracy_pitch/train: 0.1883
+I repo 05-14 02:15:51.013 trainer.py:134] ==========valid 37 epoch==========
+I repo 05-14 02:15:51.269 utils.py:43] nll/eval: 1.3467
+I repo 05-14 02:15:51.269 utils.py:43] nll_pitch/eval: 0.7413
+I repo 05-14 02:15:51.269 utils.py:43] nll_rhythm/eval: 0.6053
+I repo 05-14 02:15:51.269 utils.py:45] accuracy_rhythm/eval: 0.7087
+I repo 05-14 02:15:51.269 utils.py:45] accuracy_pitch/eval: 0.1387
+I repo 05-14 02:15:51.270 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:15:51.270 trainer.py:102] adjusting learning rate from 0.000013 to 0.000006
+I repo 05-14 02:15:51.275 trainer.py:125] 
+I repo 05-14 02:15:51.275 trainer.py:126] 38 epoch
+I repo 05-14 02:15:51.275 trainer.py:129] ==========train 38 epoch==========
+I repo 05-14 02:15:59.154 trainer.py:206] 2500 training steps
+I repo 05-14 02:15:59.190 utils.py:43] nll: 1.3602
+I repo 05-14 02:15:59.190 utils.py:43] nll_pitch: 0.7621
+I repo 05-14 02:15:59.191 utils.py:43] nll_rhythm: 0.5981
+I repo 05-14 02:15:59.191 utils.py:45] accuracy_rhythm/train: 0.7190
+I repo 05-14 02:15:59.191 utils.py:45] accuracy_pitch/train: 0.1853
+I repo 05-14 02:16:00.243 utils.py:43] nll/train: 1.2487
+I repo 05-14 02:16:00.243 utils.py:43] nll_pitch/train: 0.6682
+I repo 05-14 02:16:00.243 utils.py:43] nll_rhythm/train: 0.5804
+I repo 05-14 02:16:00.244 utils.py:45] accuracy_rhythm/train: 0.7282
+I repo 05-14 02:16:00.244 utils.py:45] accuracy_pitch/train: 0.1906
+I repo 05-14 02:16:00.247 trainer.py:134] ==========valid 38 epoch==========
+I repo 05-14 02:16:00.502 utils.py:43] nll/eval: 1.3256
+I repo 05-14 02:16:00.502 utils.py:43] nll_pitch/eval: 0.7210
+I repo 05-14 02:16:00.502 utils.py:43] nll_rhythm/eval: 0.6046
+I repo 05-14 02:16:00.502 utils.py:45] accuracy_rhythm/eval: 0.7078
+I repo 05-14 02:16:00.503 utils.py:45] accuracy_pitch/eval: 0.1450
+I repo 05-14 02:16:00.503 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:16:00.504 trainer.py:102] adjusting learning rate from 0.000006 to 0.000003
+I repo 05-14 02:16:00.509 trainer.py:125] 
+I repo 05-14 02:16:00.509 trainer.py:126] 39 epoch
+I repo 05-14 02:16:00.509 trainer.py:129] ==========train 39 epoch==========
+I repo 05-14 02:16:09.448 utils.py:43] nll/train: 1.2453
+I repo 05-14 02:16:09.449 utils.py:43] nll_pitch/train: 0.6657
+I repo 05-14 02:16:09.449 utils.py:43] nll_rhythm/train: 0.5797
+I repo 05-14 02:16:09.449 utils.py:45] accuracy_rhythm/train: 0.7281
+I repo 05-14 02:16:09.449 utils.py:45] accuracy_pitch/train: 0.1896
+I repo 05-14 02:16:09.452 trainer.py:134] ==========valid 39 epoch==========
+I repo 05-14 02:16:09.709 utils.py:43] nll/eval: 1.3297
+I repo 05-14 02:16:09.710 utils.py:43] nll_pitch/eval: 0.7281
+I repo 05-14 02:16:09.710 utils.py:43] nll_rhythm/eval: 0.6016
+I repo 05-14 02:16:09.710 utils.py:45] accuracy_rhythm/eval: 0.7119
+I repo 05-14 02:16:09.710 utils.py:45] accuracy_pitch/eval: 0.1369
+I repo 05-14 02:16:09.710 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:16:09.710 trainer.py:102] adjusting learning rate from 0.000003 to 0.000002
+I repo 05-14 02:16:09.716 trainer.py:125] 
+I repo 05-14 02:16:09.716 trainer.py:126] 40 epoch
+I repo 05-14 02:16:09.716 trainer.py:129] ==========train 40 epoch==========
+I repo 05-14 02:16:13.212 trainer.py:206] 2600 training steps
+I repo 05-14 02:16:13.250 utils.py:43] nll: 1.1903
+I repo 05-14 02:16:13.250 utils.py:43] nll_pitch: 0.6139
+I repo 05-14 02:16:13.251 utils.py:43] nll_rhythm: 0.5764
+I repo 05-14 02:16:13.251 utils.py:45] accuracy_rhythm/train: 0.7297
+I repo 05-14 02:16:13.251 utils.py:45] accuracy_pitch/train: 0.2063
+I repo 05-14 02:16:18.660 utils.py:43] nll/train: 1.2485
+I repo 05-14 02:16:18.660 utils.py:43] nll_pitch/train: 0.6686
+I repo 05-14 02:16:18.661 utils.py:43] nll_rhythm/train: 0.5799
+I repo 05-14 02:16:18.661 utils.py:45] accuracy_rhythm/train: 0.7272
+I repo 05-14 02:16:18.661 utils.py:45] accuracy_pitch/train: 0.1893
+I repo 05-14 02:16:18.665 trainer.py:134] ==========valid 40 epoch==========
+I repo 05-14 02:16:18.921 utils.py:43] nll/eval: 1.3230
+I repo 05-14 02:16:18.921 utils.py:43] nll_pitch/eval: 0.7195
+I repo 05-14 02:16:18.921 utils.py:43] nll_rhythm/eval: 0.6036
+I repo 05-14 02:16:18.921 utils.py:45] accuracy_rhythm/eval: 0.7099
+I repo 05-14 02:16:18.921 utils.py:45] accuracy_pitch/eval: 0.1437
+I repo 05-14 02:16:18.927 trainer.py:87] saving model, Epoch 40, step 2640
+I repo 05-14 02:16:24.561 trainer.py:251] ==========sampling result of epoch 040==========
+I repo 05-14 02:16:24.574 trainer.py:255] Sample 00 : [21 49 49 49 24 48 48 49 49 49 49 49 49 49 49 49 49 49 24 49]
+I repo 05-14 02:16:24.745 trainer.py:273] Groundtruth 00 : [49 49 28 49 31 49 49 36 49 49 27 49 24 49 49 16 49 49 49 49]
+I repo 05-14 02:16:24.919 trainer.py:255] Sample 01 : [17 15 49 13 49 49 49  9 49 49 49  6 48  8  9 12 10  9 49 49]
+I repo 05-14 02:16:25.109 trainer.py:273] Groundtruth 01 : [ 5 48 48 49 49 49 10 48 48 49 49 15 17 19 49 17 15 14 17 20]
+I repo 05-14 02:16:25.293 trainer.py:255] Sample 02 : [33 49 33 49 32 49 30 49 32 49 33 49 32 49 32 49 32 49 33 49]
+I repo 05-14 02:16:25.475 trainer.py:273] Groundtruth 02 : [32 49 28 49 25 49 49 49 21 48 49 49 20 18 48 49 20 49 21 49]
+I repo 05-14 02:16:25.650 trainer.py:255] Sample 03 : [49 49 49 49 49 49 49 49 20 48 48 19 48 49 49 49 20 48 49 49]
+I repo 05-14 02:16:25.821 trainer.py:273] Groundtruth 03 : [49 49 49 49 49 49 21 48 48 48 49 49 49 49 49 49 17 48 48 48]
+I repo 05-14 02:16:25.992 trainer.py:255] Sample 04 : [48 48 48 48  8 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48]
+I repo 05-14 02:16:26.175 trainer.py:273] Groundtruth 04 : [48 48  9 48 48 48 48 48 48 48 48 48 48 48 10 48 48 48 48 48]
+I repo 05-14 02:16:26.345 trainer.py:125] 
+I repo 05-14 02:16:26.345 trainer.py:126] 41 epoch
+I repo 05-14 02:16:26.346 trainer.py:129] ==========train 41 epoch==========
+I repo 05-14 02:16:34.566 trainer.py:206] 2700 training steps
+I repo 05-14 02:16:34.603 utils.py:43] nll: 1.3199
+I repo 05-14 02:16:34.604 utils.py:43] nll_pitch: 0.6770
+I repo 05-14 02:16:34.604 utils.py:43] nll_rhythm: 0.6428
+I repo 05-14 02:16:34.604 utils.py:45] accuracy_rhythm/train: 0.6980
+I repo 05-14 02:16:34.604 utils.py:45] accuracy_pitch/train: 0.1972
+I repo 05-14 02:16:35.381 utils.py:43] nll/train: 1.2459
+I repo 05-14 02:16:35.382 utils.py:43] nll_pitch/train: 0.6664
+I repo 05-14 02:16:35.382 utils.py:43] nll_rhythm/train: 0.5795
+I repo 05-14 02:16:35.382 utils.py:45] accuracy_rhythm/train: 0.7276
+I repo 05-14 02:16:35.382 utils.py:45] accuracy_pitch/train: 0.1902
+I repo 05-14 02:16:35.386 trainer.py:134] ==========valid 41 epoch==========
+I repo 05-14 02:16:35.642 utils.py:43] nll/eval: 1.3125
+I repo 05-14 02:16:35.643 utils.py:43] nll_pitch/eval: 0.7156
+I repo 05-14 02:16:35.643 utils.py:43] nll_rhythm/eval: 0.5969
+I repo 05-14 02:16:35.643 utils.py:45] accuracy_rhythm/eval: 0.7137
+I repo 05-14 02:16:35.643 utils.py:45] accuracy_pitch/eval: 0.1362
+I repo 05-14 02:16:35.649 trainer.py:125] 
+I repo 05-14 02:16:35.649 trainer.py:126] 42 epoch
+I repo 05-14 02:16:35.650 trainer.py:129] ==========train 42 epoch==========
+I repo 05-14 02:16:44.577 utils.py:43] nll/train: 1.2443
+I repo 05-14 02:16:44.578 utils.py:43] nll_pitch/train: 0.6649
+I repo 05-14 02:16:44.578 utils.py:43] nll_rhythm/train: 0.5794
+I repo 05-14 02:16:44.578 utils.py:45] accuracy_rhythm/train: 0.7286
+I repo 05-14 02:16:44.578 utils.py:45] accuracy_pitch/train: 0.1915
+I repo 05-14 02:16:44.580 trainer.py:134] ==========valid 42 epoch==========
+I repo 05-14 02:16:44.846 utils.py:43] nll/eval: 1.2969
+I repo 05-14 02:16:44.846 utils.py:43] nll_pitch/eval: 0.6982
+I repo 05-14 02:16:44.846 utils.py:43] nll_rhythm/eval: 0.5986
+I repo 05-14 02:16:44.847 utils.py:45] accuracy_rhythm/eval: 0.7129
+I repo 05-14 02:16:44.847 utils.py:45] accuracy_pitch/eval: 0.1406
+I repo 05-14 02:16:44.854 trainer.py:125] 
+I repo 05-14 02:16:44.854 trainer.py:126] 43 epoch
+I repo 05-14 02:16:44.854 trainer.py:129] ==========train 43 epoch==========
+I repo 05-14 02:16:48.626 trainer.py:206] 2800 training steps
+I repo 05-14 02:16:48.664 utils.py:43] nll: 1.2666
+I repo 05-14 02:16:48.665 utils.py:43] nll_pitch: 0.6807
+I repo 05-14 02:16:48.665 utils.py:43] nll_rhythm: 0.5859
+I repo 05-14 02:16:48.665 utils.py:45] accuracy_rhythm/train: 0.7251
+I repo 05-14 02:16:48.665 utils.py:45] accuracy_pitch/train: 0.1892
+I repo 05-14 02:16:53.795 utils.py:43] nll/train: 1.2452
+I repo 05-14 02:16:53.795 utils.py:43] nll_pitch/train: 0.6651
+I repo 05-14 02:16:53.796 utils.py:43] nll_rhythm/train: 0.5801
+I repo 05-14 02:16:53.796 utils.py:45] accuracy_rhythm/train: 0.7283
+I repo 05-14 02:16:53.796 utils.py:45] accuracy_pitch/train: 0.1908
+I repo 05-14 02:16:53.800 trainer.py:134] ==========valid 43 epoch==========
+I repo 05-14 02:16:54.057 utils.py:43] nll/eval: 1.3226
+I repo 05-14 02:16:54.057 utils.py:43] nll_pitch/eval: 0.7169
+I repo 05-14 02:16:54.058 utils.py:43] nll_rhythm/eval: 0.6058
+I repo 05-14 02:16:54.058 utils.py:45] accuracy_rhythm/eval: 0.7092
+I repo 05-14 02:16:54.058 utils.py:45] accuracy_pitch/eval: 0.1422
+I repo 05-14 02:16:54.058 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:16:54.059 trainer.py:102] adjusting learning rate from 0.000002 to 0.000001
+I repo 05-14 02:16:54.064 trainer.py:125] 
+I repo 05-14 02:16:54.065 trainer.py:126] 44 epoch
+I repo 05-14 02:16:54.065 trainer.py:129] ==========train 44 epoch==========
+I repo 05-14 02:17:02.512 trainer.py:206] 2900 training steps
+I repo 05-14 02:17:02.549 utils.py:43] nll: 1.2563
+I repo 05-14 02:17:02.549 utils.py:43] nll_pitch: 0.6690
+I repo 05-14 02:17:02.549 utils.py:43] nll_rhythm: 0.5873
+I repo 05-14 02:17:02.550 utils.py:45] accuracy_rhythm/train: 0.7043
+I repo 05-14 02:17:02.550 utils.py:45] accuracy_pitch/train: 0.1649
+I repo 05-14 02:17:03.060 utils.py:43] nll/train: 1.2461
+I repo 05-14 02:17:03.060 utils.py:43] nll_pitch/train: 0.6657
+I repo 05-14 02:17:03.061 utils.py:43] nll_rhythm/train: 0.5804
+I repo 05-14 02:17:03.061 utils.py:45] accuracy_rhythm/train: 0.7269
+I repo 05-14 02:17:03.061 utils.py:45] accuracy_pitch/train: 0.1924
+I repo 05-14 02:17:03.065 trainer.py:134] ==========valid 44 epoch==========
+I repo 05-14 02:17:03.321 utils.py:43] nll/eval: 1.3204
+I repo 05-14 02:17:03.321 utils.py:43] nll_pitch/eval: 0.7155
+I repo 05-14 02:17:03.322 utils.py:43] nll_rhythm/eval: 0.6049
+I repo 05-14 02:17:03.322 utils.py:45] accuracy_rhythm/eval: 0.7086
+I repo 05-14 02:17:03.322 utils.py:45] accuracy_pitch/eval: 0.1454
+I repo 05-14 02:17:03.323 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:17:03.325 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:17:03.330 trainer.py:125] 
+I repo 05-14 02:17:03.330 trainer.py:126] 45 epoch
+I repo 05-14 02:17:03.330 trainer.py:129] ==========train 45 epoch==========
+I repo 05-14 02:17:12.287 utils.py:43] nll/train: 1.2427
+I repo 05-14 02:17:12.288 utils.py:43] nll_pitch/train: 0.6631
+I repo 05-14 02:17:12.288 utils.py:43] nll_rhythm/train: 0.5796
+I repo 05-14 02:17:12.288 utils.py:45] accuracy_rhythm/train: 0.7277
+I repo 05-14 02:17:12.288 utils.py:45] accuracy_pitch/train: 0.1901
+I repo 05-14 02:17:12.291 trainer.py:134] ==========valid 45 epoch==========
+I repo 05-14 02:17:12.549 utils.py:43] nll/eval: 1.3139
+I repo 05-14 02:17:12.550 utils.py:43] nll_pitch/eval: 0.7144
+I repo 05-14 02:17:12.550 utils.py:43] nll_rhythm/eval: 0.5994
+I repo 05-14 02:17:12.550 utils.py:45] accuracy_rhythm/eval: 0.7098
+I repo 05-14 02:17:12.550 utils.py:45] accuracy_pitch/eval: 0.1405
+I repo 05-14 02:17:12.551 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:17:12.551 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:17:12.557 trainer.py:125] 
+I repo 05-14 02:17:12.557 trainer.py:126] 46 epoch
+I repo 05-14 02:17:12.557 trainer.py:129] ==========train 46 epoch==========
+I repo 05-14 02:17:16.603 trainer.py:206] 3000 training steps
+I repo 05-14 02:17:16.641 utils.py:43] nll: 1.2193
+I repo 05-14 02:17:16.642 utils.py:43] nll_pitch: 0.6287
+I repo 05-14 02:17:16.642 utils.py:43] nll_rhythm: 0.5906
+I repo 05-14 02:17:16.642 utils.py:45] accuracy_rhythm/train: 0.7285
+I repo 05-14 02:17:16.642 utils.py:45] accuracy_pitch/train: 0.2019
+I repo 05-14 02:17:21.503 utils.py:43] nll/train: 1.2461
+I repo 05-14 02:17:21.503 utils.py:43] nll_pitch/train: 0.6663
+I repo 05-14 02:17:21.504 utils.py:43] nll_rhythm/train: 0.5797
+I repo 05-14 02:17:21.504 utils.py:45] accuracy_rhythm/train: 0.7275
+I repo 05-14 02:17:21.504 utils.py:45] accuracy_pitch/train: 0.1909
+I repo 05-14 02:17:21.509 trainer.py:134] ==========valid 46 epoch==========
+I repo 05-14 02:17:21.762 utils.py:43] nll/eval: 1.3068
+I repo 05-14 02:17:21.762 utils.py:43] nll_pitch/eval: 0.7055
+I repo 05-14 02:17:21.763 utils.py:43] nll_rhythm/eval: 0.6013
+I repo 05-14 02:17:21.763 utils.py:45] accuracy_rhythm/eval: 0.7109
+I repo 05-14 02:17:21.763 utils.py:45] accuracy_pitch/eval: 0.1415
+I repo 05-14 02:17:21.776 trainer.py:125] 
+I repo 05-14 02:17:21.776 trainer.py:126] 47 epoch
+I repo 05-14 02:17:21.776 trainer.py:129] ==========train 47 epoch==========
+I repo 05-14 02:17:30.446 trainer.py:206] 3100 training steps
+I repo 05-14 02:17:30.483 utils.py:43] nll: 1.3925
+I repo 05-14 02:17:30.484 utils.py:43] nll_pitch: 0.7835
+I repo 05-14 02:17:30.484 utils.py:43] nll_rhythm: 0.6089
+I repo 05-14 02:17:30.484 utils.py:45] accuracy_rhythm/train: 0.7188
+I repo 05-14 02:17:30.484 utils.py:45] accuracy_pitch/train: 0.2100
+I repo 05-14 02:17:30.723 utils.py:43] nll/train: 1.2462
+I repo 05-14 02:17:30.724 utils.py:43] nll_pitch/train: 0.6663
+I repo 05-14 02:17:30.724 utils.py:43] nll_rhythm/train: 0.5800
+I repo 05-14 02:17:30.724 utils.py:45] accuracy_rhythm/train: 0.7277
+I repo 05-14 02:17:30.724 utils.py:45] accuracy_pitch/train: 0.1880
+I repo 05-14 02:17:30.728 trainer.py:134] ==========valid 47 epoch==========
+I repo 05-14 02:17:30.982 utils.py:43] nll/eval: 1.3125
+I repo 05-14 02:17:30.982 utils.py:43] nll_pitch/eval: 0.7148
+I repo 05-14 02:17:30.983 utils.py:43] nll_rhythm/eval: 0.5977
+I repo 05-14 02:17:30.983 utils.py:45] accuracy_rhythm/eval: 0.7150
+I repo 05-14 02:17:30.983 utils.py:45] accuracy_pitch/eval: 0.1397
+I repo 05-14 02:17:30.988 trainer.py:125] 
+I repo 05-14 02:17:30.988 trainer.py:126] 48 epoch
+I repo 05-14 02:17:30.989 trainer.py:129] ==========train 48 epoch==========
+I repo 05-14 02:17:39.955 utils.py:43] nll/train: 1.2465
+I repo 05-14 02:17:39.955 utils.py:43] nll_pitch/train: 0.6662
+I repo 05-14 02:17:39.956 utils.py:43] nll_rhythm/train: 0.5803
+I repo 05-14 02:17:39.956 utils.py:45] accuracy_rhythm/train: 0.7274
+I repo 05-14 02:17:39.956 utils.py:45] accuracy_pitch/train: 0.1905
+I repo 05-14 02:17:39.959 trainer.py:134] ==========valid 48 epoch==========
+I repo 05-14 02:17:40.212 utils.py:43] nll/eval: 1.3317
+I repo 05-14 02:17:40.212 utils.py:43] nll_pitch/eval: 0.7250
+I repo 05-14 02:17:40.213 utils.py:43] nll_rhythm/eval: 0.6067
+I repo 05-14 02:17:40.213 utils.py:45] accuracy_rhythm/eval: 0.7088
+I repo 05-14 02:17:40.213 utils.py:45] accuracy_pitch/eval: 0.1403
+I repo 05-14 02:17:40.214 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:17:40.214 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:17:40.219 trainer.py:125] 
+I repo 05-14 02:17:40.219 trainer.py:126] 49 epoch
+I repo 05-14 02:17:40.219 trainer.py:129] ==========train 49 epoch==========
+I repo 05-14 02:17:44.546 trainer.py:206] 3200 training steps
+I repo 05-14 02:17:44.583 utils.py:43] nll: 1.0456
+I repo 05-14 02:17:44.583 utils.py:43] nll_pitch: 0.5299
+I repo 05-14 02:17:44.584 utils.py:43] nll_rhythm: 0.5157
+I repo 05-14 02:17:44.584 utils.py:45] accuracy_rhythm/train: 0.7668
+I repo 05-14 02:17:44.584 utils.py:45] accuracy_pitch/train: 0.1716
+I repo 05-14 02:17:49.197 utils.py:43] nll/train: 1.2429
+I repo 05-14 02:17:49.198 utils.py:43] nll_pitch/train: 0.6636
+I repo 05-14 02:17:49.198 utils.py:43] nll_rhythm/train: 0.5792
+I repo 05-14 02:17:49.198 utils.py:45] accuracy_rhythm/train: 0.7282
+I repo 05-14 02:17:49.198 utils.py:45] accuracy_pitch/train: 0.1913
+I repo 05-14 02:17:49.203 trainer.py:134] ==========valid 49 epoch==========
+I repo 05-14 02:17:49.457 utils.py:43] nll/eval: 1.3144
+I repo 05-14 02:17:49.458 utils.py:43] nll_pitch/eval: 0.7177
+I repo 05-14 02:17:49.458 utils.py:43] nll_rhythm/eval: 0.5968
+I repo 05-14 02:17:49.458 utils.py:45] accuracy_rhythm/eval: 0.7129
+I repo 05-14 02:17:49.458 utils.py:45] accuracy_pitch/eval: 0.1389
+I repo 05-14 02:17:49.464 trainer.py:125] 
+I repo 05-14 02:17:49.464 trainer.py:126] 50 epoch
+I repo 05-14 02:17:49.464 trainer.py:129] ==========train 50 epoch==========
+I repo 05-14 02:17:58.393 trainer.py:206] 3300 training steps
+I repo 05-14 02:17:58.430 utils.py:43] nll: 1.2685
+I repo 05-14 02:17:58.431 utils.py:43] nll_pitch: 0.6563
+I repo 05-14 02:17:58.431 utils.py:43] nll_rhythm: 0.6122
+I repo 05-14 02:17:58.431 utils.py:45] accuracy_rhythm/train: 0.7031
+I repo 05-14 02:17:58.431 utils.py:45] accuracy_pitch/train: 0.2011
+I repo 05-14 02:17:58.432 utils.py:43] nll/train: 1.2445
+I repo 05-14 02:17:58.432 utils.py:43] nll_pitch/train: 0.6644
+I repo 05-14 02:17:58.432 utils.py:43] nll_rhythm/train: 0.5801
+I repo 05-14 02:17:58.432 utils.py:45] accuracy_rhythm/train: 0.7276
+I repo 05-14 02:17:58.433 utils.py:45] accuracy_pitch/train: 0.1909
+I repo 05-14 02:17:58.437 trainer.py:134] ==========valid 50 epoch==========
+I repo 05-14 02:17:58.669 utils.py:43] nll/eval: 1.3072
+I repo 05-14 02:17:58.669 utils.py:43] nll_pitch/eval: 0.7083
+I repo 05-14 02:17:58.669 utils.py:43] nll_rhythm/eval: 0.5988
+I repo 05-14 02:17:58.669 utils.py:45] accuracy_rhythm/eval: 0.7136
+I repo 05-14 02:17:58.670 utils.py:45] accuracy_pitch/eval: 0.1398
+I repo 05-14 02:17:58.675 trainer.py:87] saving model, Epoch 50, step 3300
+I repo 05-14 02:18:04.659 trainer.py:251] ==========sampling result of epoch 050==========
+I repo 05-14 02:18:04.671 trainer.py:255] Sample 00 : [19 49 49 49 49 49 49 19 49 49 49 49 19 49 49 49 49 49 24 49]
+I repo 05-14 02:18:04.848 trainer.py:273] Groundtruth 00 : [49 15 16 49 19 49 24 49 49 49 21 49 22 49 26 49 21 49 19 49]
+I repo 05-14 02:18:05.031 trainer.py:255] Sample 01 : [12 48 48 49 49 49 49 49 49 49 49 49 14 49 49 49 49 49 49 49]
+I repo 05-14 02:18:05.220 trainer.py:273] Groundtruth 01 : [49 49 49 49 49 49 16 17 49 49 49 49 14 12 13 49 14 10  7 49]
+I repo 05-14 02:18:05.401 trainer.py:255] Sample 02 : [49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49]
+I repo 05-14 02:18:05.582 trainer.py:273] Groundtruth 02 : [49 49 49 49 49  4 49 49  5 49 49 49  6 48 49 49  7 49 49 49]
+I repo 05-14 02:18:05.761 trainer.py:255] Sample 03 : [20 14 15 14 10  7  8 49  7 10  9  8 49 49 49  7 49 49 49 49]
+I repo 05-14 02:18:05.945 trainer.py:273] Groundtruth 03 : [19 49 19 48 49 49 22 19 49 49 19 19 49 19 16 15 15 49 49 10]
+I repo 05-14 02:18:06.132 trainer.py:255] Sample 04 : [49 49  4 49  5 49  0 49  0 49  0 49 49  0 49 49  0 49 49 49]
+I repo 05-14 02:18:06.515 trainer.py:273] Groundtruth 04 : [49 49 49 49 49 49 16 49 17 49 49 49 16 49 49 49 12 48 48 49]
+I repo 05-14 02:18:06.689 trainer.py:125] 
+I repo 05-14 02:18:06.690 trainer.py:126] 51 epoch
+I repo 05-14 02:18:06.690 trainer.py:129] ==========train 51 epoch==========
+I repo 05-14 02:18:15.642 utils.py:43] nll/train: 1.2438
+I repo 05-14 02:18:15.642 utils.py:43] nll_pitch/train: 0.6636
+I repo 05-14 02:18:15.643 utils.py:43] nll_rhythm/train: 0.5802
+I repo 05-14 02:18:15.643 utils.py:45] accuracy_rhythm/train: 0.7279
+I repo 05-14 02:18:15.643 utils.py:45] accuracy_pitch/train: 0.1897
+I repo 05-14 02:18:15.646 trainer.py:134] ==========valid 51 epoch==========
+I repo 05-14 02:18:15.901 utils.py:43] nll/eval: 1.3557
+I repo 05-14 02:18:15.902 utils.py:43] nll_pitch/eval: 0.7439
+I repo 05-14 02:18:15.902 utils.py:43] nll_rhythm/eval: 0.6118
+I repo 05-14 02:18:15.902 utils.py:45] accuracy_rhythm/eval: 0.7060
+I repo 05-14 02:18:15.902 utils.py:45] accuracy_pitch/eval: 0.1424
+I repo 05-14 02:18:15.903 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:18:15.903 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:18:15.908 trainer.py:125] 
+I repo 05-14 02:18:15.908 trainer.py:126] 52 epoch
+I repo 05-14 02:18:15.908 trainer.py:129] ==========train 52 epoch==========
+I repo 05-14 02:18:20.485 trainer.py:206] 3400 training steps
+I repo 05-14 02:18:20.524 utils.py:43] nll: 1.3575
+I repo 05-14 02:18:20.524 utils.py:43] nll_pitch: 0.7253
+I repo 05-14 02:18:20.524 utils.py:43] nll_rhythm: 0.6322
+I repo 05-14 02:18:20.525 utils.py:45] accuracy_rhythm/train: 0.7004
+I repo 05-14 02:18:20.525 utils.py:45] accuracy_pitch/train: 0.1976
+I repo 05-14 02:18:24.847 utils.py:43] nll/train: 1.2436
+I repo 05-14 02:18:24.847 utils.py:43] nll_pitch/train: 0.6637
+I repo 05-14 02:18:24.847 utils.py:43] nll_rhythm/train: 0.5798
+I repo 05-14 02:18:24.847 utils.py:45] accuracy_rhythm/train: 0.7285
+I repo 05-14 02:18:24.848 utils.py:45] accuracy_pitch/train: 0.1906
+I repo 05-14 02:18:24.851 trainer.py:134] ==========valid 52 epoch==========
+I repo 05-14 02:18:25.109 utils.py:43] nll/eval: 1.3382
+I repo 05-14 02:18:25.109 utils.py:43] nll_pitch/eval: 0.7335
+I repo 05-14 02:18:25.109 utils.py:43] nll_rhythm/eval: 0.6047
+I repo 05-14 02:18:25.110 utils.py:45] accuracy_rhythm/eval: 0.7082
+I repo 05-14 02:18:25.110 utils.py:45] accuracy_pitch/eval: 0.1396
+I repo 05-14 02:18:25.110 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:18:25.111 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:18:25.116 trainer.py:125] 
+I repo 05-14 02:18:25.116 trainer.py:126] 53 epoch
+I repo 05-14 02:18:25.116 trainer.py:129] ==========train 53 epoch==========
+I repo 05-14 02:18:34.056 utils.py:43] nll/train: 1.2432
+I repo 05-14 02:18:34.056 utils.py:43] nll_pitch/train: 0.6635
+I repo 05-14 02:18:34.057 utils.py:43] nll_rhythm/train: 0.5797
+I repo 05-14 02:18:34.057 utils.py:45] accuracy_rhythm/train: 0.7281
+I repo 05-14 02:18:34.057 utils.py:45] accuracy_pitch/train: 0.1909
+I repo 05-14 02:18:34.060 trainer.py:134] ==========valid 53 epoch==========
+I repo 05-14 02:18:34.315 utils.py:43] nll/eval: 1.3183
+I repo 05-14 02:18:34.316 utils.py:43] nll_pitch/eval: 0.7163
+I repo 05-14 02:18:34.316 utils.py:43] nll_rhythm/eval: 0.6020
+I repo 05-14 02:18:34.316 utils.py:45] accuracy_rhythm/eval: 0.7108
+I repo 05-14 02:18:34.316 utils.py:45] accuracy_pitch/eval: 0.1427
+I repo 05-14 02:18:34.321 trainer.py:125] 
+I repo 05-14 02:18:34.322 trainer.py:126] 54 epoch
+I repo 05-14 02:18:34.322 trainer.py:129] ==========train 54 epoch==========
+I repo 05-14 02:18:34.557 trainer.py:206] 3500 training steps
+I repo 05-14 02:18:34.595 utils.py:43] nll: 1.1595
+I repo 05-14 02:18:34.596 utils.py:43] nll_pitch: 0.5998
+I repo 05-14 02:18:34.596 utils.py:43] nll_rhythm: 0.5597
+I repo 05-14 02:18:34.596 utils.py:45] accuracy_rhythm/train: 0.7283
+I repo 05-14 02:18:34.596 utils.py:45] accuracy_pitch/train: 0.1892
+I repo 05-14 02:18:43.260 utils.py:43] nll/train: 1.2410
+I repo 05-14 02:18:43.261 utils.py:43] nll_pitch/train: 0.6608
+I repo 05-14 02:18:43.261 utils.py:43] nll_rhythm/train: 0.5802
+I repo 05-14 02:18:43.261 utils.py:45] accuracy_rhythm/train: 0.7276
+I repo 05-14 02:18:43.261 utils.py:45] accuracy_pitch/train: 0.1903
+I repo 05-14 02:18:43.265 trainer.py:134] ==========valid 54 epoch==========
+I repo 05-14 02:18:43.519 utils.py:43] nll/eval: 1.3304
+I repo 05-14 02:18:43.520 utils.py:43] nll_pitch/eval: 0.7231
+I repo 05-14 02:18:43.520 utils.py:43] nll_rhythm/eval: 0.6072
+I repo 05-14 02:18:43.520 utils.py:45] accuracy_rhythm/eval: 0.7086
+I repo 05-14 02:18:43.520 utils.py:45] accuracy_pitch/eval: 0.1424
+I repo 05-14 02:18:43.526 trainer.py:125] 
+I repo 05-14 02:18:43.526 trainer.py:126] 55 epoch
+I repo 05-14 02:18:43.526 trainer.py:129] ==========train 55 epoch==========
+I repo 05-14 02:18:48.385 trainer.py:206] 3600 training steps
+I repo 05-14 02:18:48.420 utils.py:43] nll: 1.2106
+I repo 05-14 02:18:48.421 utils.py:43] nll_pitch: 0.6127
+I repo 05-14 02:18:48.421 utils.py:43] nll_rhythm: 0.5980
+I repo 05-14 02:18:48.421 utils.py:45] accuracy_rhythm/train: 0.7173
+I repo 05-14 02:18:48.421 utils.py:45] accuracy_pitch/train: 0.1764
+I repo 05-14 02:18:52.471 utils.py:43] nll/train: 1.2410
+I repo 05-14 02:18:52.472 utils.py:43] nll_pitch/train: 0.6613
+I repo 05-14 02:18:52.472 utils.py:43] nll_rhythm/train: 0.5797
+I repo 05-14 02:18:52.472 utils.py:45] accuracy_rhythm/train: 0.7280
+I repo 05-14 02:18:52.472 utils.py:45] accuracy_pitch/train: 0.1894
+I repo 05-14 02:18:52.476 trainer.py:134] ==========valid 55 epoch==========
+I repo 05-14 02:18:52.730 utils.py:43] nll/eval: 1.3549
+I repo 05-14 02:18:52.731 utils.py:43] nll_pitch/eval: 0.7439
+I repo 05-14 02:18:52.731 utils.py:43] nll_rhythm/eval: 0.6110
+I repo 05-14 02:18:52.731 utils.py:45] accuracy_rhythm/eval: 0.7051
+I repo 05-14 02:18:52.731 utils.py:45] accuracy_pitch/eval: 0.1451
+I repo 05-14 02:18:52.732 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:18:52.732 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:18:52.738 trainer.py:125] 
+I repo 05-14 02:18:52.739 trainer.py:126] 56 epoch
+I repo 05-14 02:18:52.739 trainer.py:129] ==========train 56 epoch==========
+I repo 05-14 02:19:01.658 utils.py:43] nll/train: 1.2402
+I repo 05-14 02:19:01.659 utils.py:43] nll_pitch/train: 0.6606
+I repo 05-14 02:19:01.659 utils.py:43] nll_rhythm/train: 0.5796
+I repo 05-14 02:19:01.659 utils.py:45] accuracy_rhythm/train: 0.7283
+I repo 05-14 02:19:01.659 utils.py:45] accuracy_pitch/train: 0.1929
+I repo 05-14 02:19:01.661 trainer.py:134] ==========valid 56 epoch==========
+I repo 05-14 02:19:01.925 utils.py:43] nll/eval: 1.3526
+I repo 05-14 02:19:01.925 utils.py:43] nll_pitch/eval: 0.7454
+I repo 05-14 02:19:01.925 utils.py:43] nll_rhythm/eval: 0.6072
+I repo 05-14 02:19:01.925 utils.py:45] accuracy_rhythm/eval: 0.7069
+I repo 05-14 02:19:01.925 utils.py:45] accuracy_pitch/eval: 0.1390
+I repo 05-14 02:19:01.926 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:19:01.926 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:19:01.933 trainer.py:125] 
+I repo 05-14 02:19:01.933 trainer.py:126] 57 epoch
+I repo 05-14 02:19:01.934 trainer.py:129] ==========train 57 epoch==========
+I repo 05-14 02:19:02.448 trainer.py:206] 3700 training steps
+I repo 05-14 02:19:02.483 utils.py:43] nll: 1.1943
+I repo 05-14 02:19:02.483 utils.py:43] nll_pitch: 0.6338
+I repo 05-14 02:19:02.484 utils.py:43] nll_rhythm: 0.5605
+I repo 05-14 02:19:02.484 utils.py:45] accuracy_rhythm/train: 0.7312
+I repo 05-14 02:19:02.484 utils.py:45] accuracy_pitch/train: 0.2010
+I repo 05-14 02:19:10.878 utils.py:43] nll/train: 1.2416
+I repo 05-14 02:19:10.878 utils.py:43] nll_pitch/train: 0.6615
+I repo 05-14 02:19:10.878 utils.py:43] nll_rhythm/train: 0.5801
+I repo 05-14 02:19:10.878 utils.py:45] accuracy_rhythm/train: 0.7279
+I repo 05-14 02:19:10.878 utils.py:45] accuracy_pitch/train: 0.1918
+I repo 05-14 02:19:10.882 trainer.py:134] ==========valid 57 epoch==========
+I repo 05-14 02:19:11.138 utils.py:43] nll/eval: 1.3203
+I repo 05-14 02:19:11.138 utils.py:43] nll_pitch/eval: 0.7188
+I repo 05-14 02:19:11.138 utils.py:43] nll_rhythm/eval: 0.6015
+I repo 05-14 02:19:11.138 utils.py:45] accuracy_rhythm/eval: 0.7101
+I repo 05-14 02:19:11.139 utils.py:45] accuracy_pitch/eval: 0.1421
+I repo 05-14 02:19:11.145 trainer.py:125] 
+I repo 05-14 02:19:11.145 trainer.py:126] 58 epoch
+I repo 05-14 02:19:11.145 trainer.py:129] ==========train 58 epoch==========
+I repo 05-14 02:19:16.304 trainer.py:206] 3800 training steps
+I repo 05-14 02:19:16.341 utils.py:43] nll: 1.3483
+I repo 05-14 02:19:16.341 utils.py:43] nll_pitch: 0.7595
+I repo 05-14 02:19:16.341 utils.py:43] nll_rhythm: 0.5888
+I repo 05-14 02:19:16.342 utils.py:45] accuracy_rhythm/train: 0.7190
+I repo 05-14 02:19:16.342 utils.py:45] accuracy_pitch/train: 0.1884
+I repo 05-14 02:19:20.123 utils.py:43] nll/train: 1.2402
+I repo 05-14 02:19:20.123 utils.py:43] nll_pitch/train: 0.6603
+I repo 05-14 02:19:20.124 utils.py:43] nll_rhythm/train: 0.5798
+I repo 05-14 02:19:20.124 utils.py:45] accuracy_rhythm/train: 0.7281
+I repo 05-14 02:19:20.124 utils.py:45] accuracy_pitch/train: 0.1917
+I repo 05-14 02:19:20.128 trainer.py:134] ==========valid 58 epoch==========
+I repo 05-14 02:19:20.383 utils.py:43] nll/eval: 1.3143
+I repo 05-14 02:19:20.383 utils.py:43] nll_pitch/eval: 0.7169
+I repo 05-14 02:19:20.383 utils.py:43] nll_rhythm/eval: 0.5975
+I repo 05-14 02:19:20.383 utils.py:45] accuracy_rhythm/eval: 0.7123
+I repo 05-14 02:19:20.383 utils.py:45] accuracy_pitch/eval: 0.1394
+I repo 05-14 02:19:20.389 trainer.py:125] 
+I repo 05-14 02:19:20.389 trainer.py:126] 59 epoch
+I repo 05-14 02:19:20.389 trainer.py:129] ==========train 59 epoch==========
+I repo 05-14 02:19:29.325 utils.py:43] nll/train: 1.2411
+I repo 05-14 02:19:29.326 utils.py:43] nll_pitch/train: 0.6613
+I repo 05-14 02:19:29.326 utils.py:43] nll_rhythm/train: 0.5797
+I repo 05-14 02:19:29.326 utils.py:45] accuracy_rhythm/train: 0.7271
+I repo 05-14 02:19:29.326 utils.py:45] accuracy_pitch/train: 0.1913
+I repo 05-14 02:19:29.328 trainer.py:134] ==========valid 59 epoch==========
+I repo 05-14 02:19:29.586 utils.py:43] nll/eval: 1.3354
+I repo 05-14 02:19:29.587 utils.py:43] nll_pitch/eval: 0.7298
+I repo 05-14 02:19:29.587 utils.py:43] nll_rhythm/eval: 0.6056
+I repo 05-14 02:19:29.587 utils.py:45] accuracy_rhythm/eval: 0.7080
+I repo 05-14 02:19:29.587 utils.py:45] accuracy_pitch/eval: 0.1390
+I repo 05-14 02:19:29.588 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:19:29.588 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:19:29.593 trainer.py:125] 
+I repo 05-14 02:19:29.593 trainer.py:126] 60 epoch
+I repo 05-14 02:19:29.593 trainer.py:129] ==========train 60 epoch==========
+I repo 05-14 02:19:30.371 trainer.py:206] 3900 training steps
+I repo 05-14 02:19:30.409 utils.py:43] nll: 1.1438
+I repo 05-14 02:19:30.409 utils.py:43] nll_pitch: 0.5823
+I repo 05-14 02:19:30.409 utils.py:43] nll_rhythm: 0.5614
+I repo 05-14 02:19:30.409 utils.py:45] accuracy_rhythm/train: 0.7324
+I repo 05-14 02:19:30.409 utils.py:45] accuracy_pitch/train: 0.2000
+I repo 05-14 02:19:38.518 utils.py:43] nll/train: 1.2405
+I repo 05-14 02:19:38.518 utils.py:43] nll_pitch/train: 0.6607
+I repo 05-14 02:19:38.519 utils.py:43] nll_rhythm/train: 0.5798
+I repo 05-14 02:19:38.519 utils.py:45] accuracy_rhythm/train: 0.7276
+I repo 05-14 02:19:38.519 utils.py:45] accuracy_pitch/train: 0.1924
+I repo 05-14 02:19:38.523 trainer.py:134] ==========valid 60 epoch==========
+I repo 05-14 02:19:38.782 utils.py:43] nll/eval: 1.3237
+I repo 05-14 02:19:38.782 utils.py:43] nll_pitch/eval: 0.7181
+I repo 05-14 02:19:38.782 utils.py:43] nll_rhythm/eval: 0.6056
+I repo 05-14 02:19:38.782 utils.py:45] accuracy_rhythm/eval: 0.7083
+I repo 05-14 02:19:38.783 utils.py:45] accuracy_pitch/eval: 0.1416
+I repo 05-14 02:19:38.783 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:19:38.784 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:19:38.788 trainer.py:87] saving model, Epoch 60, step 3960
+I repo 05-14 02:19:44.634 trainer.py:251] ==========sampling result of epoch 060==========
+I repo 05-14 02:19:44.647 trainer.py:255] Sample 00 : [14 48 48 12 12 48  9 48 12 12  9 49  7 48 49 49  9 48 48  7]
+I repo 05-14 02:19:44.822 trainer.py:273] Groundtruth 00 : [48 48 48 22 18 49 21 48 48 48 48 26 24 19 17  9  9 11 49  7]
+I repo 05-14 02:19:45.002 trainer.py:255] Sample 01 : [49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  7 48 49]
+I repo 05-14 02:19:45.184 trainer.py:273] Groundtruth 01 : [49 49  8 49 49  8 48 49 49 49 49 49 49 49 49 49 49 49 49 49]
+I repo 05-14 02:19:45.356 trainer.py:255] Sample 02 : [21 48 48 49 20 49 20 49 17 48 21 49 17 49 49 49 21 48 48 48]
+I repo 05-14 02:19:45.532 trainer.py:273] Groundtruth 02 : [36 41 49 35 37 49 49 49 41 49 37 48 41 49 49 49 37 41 48 49]
+I repo 05-14 02:19:45.709 trainer.py:255] Sample 03 : [ 6  3 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49]
+I repo 05-14 02:19:45.883 trainer.py:273] Groundtruth 03 : [14 49 49 49 19 49 49 49 16 48 48 48 21 49 49 49 49 49 49 49]
+I repo 05-14 02:19:46.073 trainer.py:255] Sample 04 : [16 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48]
+I repo 05-14 02:19:46.254 trainer.py:273] Groundtruth 04 : [49 49 28 49 31 49 49 36 49 49 27 49 24 49 49 16 49 49 49 49]
+I repo 05-14 02:19:46.437 trainer.py:125] 
+I repo 05-14 02:19:46.437 trainer.py:126] 61 epoch
+I repo 05-14 02:19:46.438 trainer.py:129] ==========train 61 epoch==========
+I repo 05-14 02:19:51.895 trainer.py:206] 4000 training steps
+I repo 05-14 02:19:51.931 utils.py:43] nll: 1.2156
+I repo 05-14 02:19:51.931 utils.py:43] nll_pitch: 0.6461
+I repo 05-14 02:19:51.932 utils.py:43] nll_rhythm: 0.5695
+I repo 05-14 02:19:51.932 utils.py:45] accuracy_rhythm/train: 0.7385
+I repo 05-14 02:19:51.932 utils.py:45] accuracy_pitch/train: 0.1887
+I repo 05-14 02:19:55.445 utils.py:43] nll/train: 1.2428
+I repo 05-14 02:19:55.445 utils.py:43] nll_pitch/train: 0.6628
+I repo 05-14 02:19:55.445 utils.py:43] nll_rhythm/train: 0.5800
+I repo 05-14 02:19:55.445 utils.py:45] accuracy_rhythm/train: 0.7275
+I repo 05-14 02:19:55.445 utils.py:45] accuracy_pitch/train: 0.1912
+I repo 05-14 02:19:55.450 trainer.py:134] ==========valid 61 epoch==========
+I repo 05-14 02:19:55.703 utils.py:43] nll/eval: 1.3180
+I repo 05-14 02:19:55.703 utils.py:43] nll_pitch/eval: 0.7134
+I repo 05-14 02:19:55.703 utils.py:43] nll_rhythm/eval: 0.6046
+I repo 05-14 02:19:55.703 utils.py:45] accuracy_rhythm/eval: 0.7091
+I repo 05-14 02:19:55.703 utils.py:45] accuracy_pitch/eval: 0.1451
+I repo 05-14 02:19:55.709 trainer.py:125] 
+I repo 05-14 02:19:55.709 trainer.py:126] 62 epoch
+I repo 05-14 02:19:55.709 trainer.py:129] ==========train 62 epoch==========
+I repo 05-14 02:20:04.636 utils.py:43] nll/train: 1.2390
+I repo 05-14 02:20:04.637 utils.py:43] nll_pitch/train: 0.6590
+I repo 05-14 02:20:04.637 utils.py:43] nll_rhythm/train: 0.5800
+I repo 05-14 02:20:04.637 utils.py:45] accuracy_rhythm/train: 0.7280
+I repo 05-14 02:20:04.637 utils.py:45] accuracy_pitch/train: 0.1930
+I repo 05-14 02:20:04.640 trainer.py:134] ==========valid 62 epoch==========
+I repo 05-14 02:20:04.900 utils.py:43] nll/eval: 1.2984
+I repo 05-14 02:20:04.901 utils.py:43] nll_pitch/eval: 0.7007
+I repo 05-14 02:20:04.901 utils.py:43] nll_rhythm/eval: 0.5977
+I repo 05-14 02:20:04.901 utils.py:45] accuracy_rhythm/eval: 0.7149
+I repo 05-14 02:20:04.901 utils.py:45] accuracy_pitch/eval: 0.1475
+I repo 05-14 02:20:04.907 trainer.py:125] 
+I repo 05-14 02:20:04.907 trainer.py:126] 63 epoch
+I repo 05-14 02:20:04.908 trainer.py:129] ==========train 63 epoch==========
+I repo 05-14 02:20:05.965 trainer.py:206] 4100 training steps
+I repo 05-14 02:20:06.002 utils.py:43] nll: 1.1687
+I repo 05-14 02:20:06.002 utils.py:43] nll_pitch: 0.5976
+I repo 05-14 02:20:06.002 utils.py:43] nll_rhythm: 0.5711
+I repo 05-14 02:20:06.002 utils.py:45] accuracy_rhythm/train: 0.7344
+I repo 05-14 02:20:06.003 utils.py:45] accuracy_pitch/train: 0.1964
+I repo 05-14 02:20:13.851 utils.py:43] nll/train: 1.2385
+I repo 05-14 02:20:13.851 utils.py:43] nll_pitch/train: 0.6584
+I repo 05-14 02:20:13.851 utils.py:43] nll_rhythm/train: 0.5801
+I repo 05-14 02:20:13.851 utils.py:45] accuracy_rhythm/train: 0.7270
+I repo 05-14 02:20:13.851 utils.py:45] accuracy_pitch/train: 0.1923
+I repo 05-14 02:20:13.856 trainer.py:134] ==========valid 63 epoch==========
+I repo 05-14 02:20:14.112 utils.py:43] nll/eval: 1.3324
+I repo 05-14 02:20:14.112 utils.py:43] nll_pitch/eval: 0.7297
+I repo 05-14 02:20:14.113 utils.py:43] nll_rhythm/eval: 0.6027
+I repo 05-14 02:20:14.113 utils.py:45] accuracy_rhythm/eval: 0.7089
+I repo 05-14 02:20:14.113 utils.py:45] accuracy_pitch/eval: 0.1410
+I repo 05-14 02:20:14.114 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:20:14.114 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:20:14.118 trainer.py:125] 
+I repo 05-14 02:20:14.119 trainer.py:126] 64 epoch
+I repo 05-14 02:20:14.119 trainer.py:129] ==========train 64 epoch==========
+I repo 05-14 02:20:19.784 trainer.py:206] 4200 training steps
+I repo 05-14 02:20:19.822 utils.py:43] nll: 1.1363
+I repo 05-14 02:20:19.823 utils.py:43] nll_pitch: 0.6010
+I repo 05-14 02:20:19.823 utils.py:43] nll_rhythm: 0.5353
+I repo 05-14 02:20:19.823 utils.py:45] accuracy_rhythm/train: 0.7500
+I repo 05-14 02:20:19.823 utils.py:45] accuracy_pitch/train: 0.1790
+I repo 05-14 02:20:23.040 utils.py:43] nll/train: 1.2410
+I repo 05-14 02:20:23.040 utils.py:43] nll_pitch/train: 0.6606
+I repo 05-14 02:20:23.040 utils.py:43] nll_rhythm/train: 0.5804
+I repo 05-14 02:20:23.040 utils.py:45] accuracy_rhythm/train: 0.7270
+I repo 05-14 02:20:23.041 utils.py:45] accuracy_pitch/train: 0.1911
+I repo 05-14 02:20:23.045 trainer.py:134] ==========valid 64 epoch==========
+I repo 05-14 02:20:23.302 utils.py:43] nll/eval: 1.3326
+I repo 05-14 02:20:23.302 utils.py:43] nll_pitch/eval: 0.7290
+I repo 05-14 02:20:23.302 utils.py:43] nll_rhythm/eval: 0.6036
+I repo 05-14 02:20:23.302 utils.py:45] accuracy_rhythm/eval: 0.7099
+I repo 05-14 02:20:23.303 utils.py:45] accuracy_pitch/eval: 0.1407
+I repo 05-14 02:20:23.303 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:20:23.304 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:20:23.309 trainer.py:125] 
+I repo 05-14 02:20:23.310 trainer.py:126] 65 epoch
+I repo 05-14 02:20:23.310 trainer.py:129] ==========train 65 epoch==========
+I repo 05-14 02:20:32.227 utils.py:43] nll/train: 1.2375
+I repo 05-14 02:20:32.227 utils.py:43] nll_pitch/train: 0.6592
+I repo 05-14 02:20:32.228 utils.py:43] nll_rhythm/train: 0.5784
+I repo 05-14 02:20:32.228 utils.py:45] accuracy_rhythm/train: 0.7285
+I repo 05-14 02:20:32.228 utils.py:45] accuracy_pitch/train: 0.1912
+I repo 05-14 02:20:32.230 trainer.py:134] ==========valid 65 epoch==========
+I repo 05-14 02:20:32.487 utils.py:43] nll/eval: 1.3499
+I repo 05-14 02:20:32.487 utils.py:43] nll_pitch/eval: 0.7406
+I repo 05-14 02:20:32.487 utils.py:43] nll_rhythm/eval: 0.6093
+I repo 05-14 02:20:32.488 utils.py:45] accuracy_rhythm/eval: 0.7063
+I repo 05-14 02:20:32.488 utils.py:45] accuracy_pitch/eval: 0.1409
+I repo 05-14 02:20:32.488 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:20:32.488 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:20:32.494 trainer.py:125] 
+I repo 05-14 02:20:32.494 trainer.py:126] 66 epoch
+I repo 05-14 02:20:32.494 trainer.py:129] ==========train 66 epoch==========
+I repo 05-14 02:20:33.813 trainer.py:206] 4300 training steps
+I repo 05-14 02:20:33.852 utils.py:43] nll: 1.2106
+I repo 05-14 02:20:33.852 utils.py:43] nll_pitch: 0.6234
+I repo 05-14 02:20:33.852 utils.py:43] nll_rhythm: 0.5872
+I repo 05-14 02:20:33.852 utils.py:45] accuracy_rhythm/train: 0.7378
+I repo 05-14 02:20:33.852 utils.py:45] accuracy_pitch/train: 0.1987
+I repo 05-14 02:20:41.419 utils.py:43] nll/train: 1.2383
+I repo 05-14 02:20:41.420 utils.py:43] nll_pitch/train: 0.6584
+I repo 05-14 02:20:41.420 utils.py:43] nll_rhythm/train: 0.5799
+I repo 05-14 02:20:41.420 utils.py:45] accuracy_rhythm/train: 0.7277
+I repo 05-14 02:20:41.420 utils.py:45] accuracy_pitch/train: 0.1929
+I repo 05-14 02:20:41.424 trainer.py:134] ==========valid 66 epoch==========
+I repo 05-14 02:20:41.677 utils.py:43] nll/eval: 1.3328
+I repo 05-14 02:20:41.678 utils.py:43] nll_pitch/eval: 0.7265
+I repo 05-14 02:20:41.678 utils.py:43] nll_rhythm/eval: 0.6063
+I repo 05-14 02:20:41.678 utils.py:45] accuracy_rhythm/eval: 0.7074
+I repo 05-14 02:20:41.678 utils.py:45] accuracy_pitch/eval: 0.1399
+I repo 05-14 02:20:41.685 trainer.py:125] 
+I repo 05-14 02:20:41.685 trainer.py:126] 67 epoch
+I repo 05-14 02:20:41.685 trainer.py:129] ==========train 67 epoch==========
+I repo 05-14 02:20:47.621 trainer.py:206] 4400 training steps
+I repo 05-14 02:20:47.659 utils.py:43] nll: 1.3266
+I repo 05-14 02:20:47.660 utils.py:43] nll_pitch: 0.7441
+I repo 05-14 02:20:47.660 utils.py:43] nll_rhythm: 0.5825
+I repo 05-14 02:20:47.660 utils.py:45] accuracy_rhythm/train: 0.7261
+I repo 05-14 02:20:47.660 utils.py:45] accuracy_pitch/train: 0.1968
+I repo 05-14 02:20:50.617 utils.py:43] nll/train: 1.2401
+I repo 05-14 02:20:50.618 utils.py:43] nll_pitch/train: 0.6600
+I repo 05-14 02:20:50.618 utils.py:43] nll_rhythm/train: 0.5801
+I repo 05-14 02:20:50.618 utils.py:45] accuracy_rhythm/train: 0.7279
+I repo 05-14 02:20:50.618 utils.py:45] accuracy_pitch/train: 0.1936
+I repo 05-14 02:20:50.622 trainer.py:134] ==========valid 67 epoch==========
+I repo 05-14 02:20:50.871 utils.py:43] nll/eval: 1.3234
+I repo 05-14 02:20:50.871 utils.py:43] nll_pitch/eval: 0.7215
+I repo 05-14 02:20:50.871 utils.py:43] nll_rhythm/eval: 0.6019
+I repo 05-14 02:20:50.871 utils.py:45] accuracy_rhythm/eval: 0.7112
+I repo 05-14 02:20:50.872 utils.py:45] accuracy_pitch/eval: 0.1422
+I repo 05-14 02:20:50.877 trainer.py:125] 
+I repo 05-14 02:20:50.877 trainer.py:126] 68 epoch
+I repo 05-14 02:20:50.877 trainer.py:129] ==========train 68 epoch==========
+I repo 05-14 02:20:59.850 utils.py:43] nll/train: 1.2380
+I repo 05-14 02:20:59.850 utils.py:43] nll_pitch/train: 0.6586
+I repo 05-14 02:20:59.850 utils.py:43] nll_rhythm/train: 0.5794
+I repo 05-14 02:20:59.850 utils.py:45] accuracy_rhythm/train: 0.7283
+I repo 05-14 02:20:59.850 utils.py:45] accuracy_pitch/train: 0.1921
+I repo 05-14 02:20:59.852 trainer.py:134] ==========valid 68 epoch==========
+I repo 05-14 02:21:00.109 utils.py:43] nll/eval: 1.3386
+I repo 05-14 02:21:00.110 utils.py:43] nll_pitch/eval: 0.7323
+I repo 05-14 02:21:00.110 utils.py:43] nll_rhythm/eval: 0.6062
+I repo 05-14 02:21:00.110 utils.py:45] accuracy_rhythm/eval: 0.7090
+I repo 05-14 02:21:00.110 utils.py:45] accuracy_pitch/eval: 0.1437
+I repo 05-14 02:21:00.111 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:21:00.112 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:21:00.116 trainer.py:125] 
+I repo 05-14 02:21:00.116 trainer.py:126] 69 epoch
+I repo 05-14 02:21:00.116 trainer.py:129] ==========train 69 epoch==========
+I repo 05-14 02:21:01.707 trainer.py:206] 4500 training steps
+I repo 05-14 02:21:01.745 utils.py:43] nll: 1.2810
+I repo 05-14 02:21:01.745 utils.py:43] nll_pitch: 0.6838
+I repo 05-14 02:21:01.746 utils.py:43] nll_rhythm: 0.5972
+I repo 05-14 02:21:01.746 utils.py:45] accuracy_rhythm/train: 0.7141
+I repo 05-14 02:21:01.746 utils.py:45] accuracy_pitch/train: 0.1963
+I repo 05-14 02:21:09.058 utils.py:43] nll/train: 1.2399
+I repo 05-14 02:21:09.059 utils.py:43] nll_pitch/train: 0.6599
+I repo 05-14 02:21:09.059 utils.py:43] nll_rhythm/train: 0.5799
+I repo 05-14 02:21:09.059 utils.py:45] accuracy_rhythm/train: 0.7278
+I repo 05-14 02:21:09.059 utils.py:45] accuracy_pitch/train: 0.1934
+I repo 05-14 02:21:09.064 trainer.py:134] ==========valid 69 epoch==========
+I repo 05-14 02:21:09.322 utils.py:43] nll/eval: 1.3102
+I repo 05-14 02:21:09.322 utils.py:43] nll_pitch/eval: 0.7096
+I repo 05-14 02:21:09.322 utils.py:43] nll_rhythm/eval: 0.6006
+I repo 05-14 02:21:09.322 utils.py:45] accuracy_rhythm/eval: 0.7106
+I repo 05-14 02:21:09.322 utils.py:45] accuracy_pitch/eval: 0.1419
+I repo 05-14 02:21:09.330 trainer.py:125] 
+I repo 05-14 02:21:09.330 trainer.py:126] 70 epoch
+I repo 05-14 02:21:09.330 trainer.py:129] ==========train 70 epoch==========
+I repo 05-14 02:21:15.533 trainer.py:206] 4600 training steps
+I repo 05-14 02:21:15.571 utils.py:43] nll: 1.1107
+I repo 05-14 02:21:15.572 utils.py:43] nll_pitch: 0.5592
+I repo 05-14 02:21:15.572 utils.py:43] nll_rhythm: 0.5515
+I repo 05-14 02:21:15.572 utils.py:45] accuracy_rhythm/train: 0.7405
+I repo 05-14 02:21:15.573 utils.py:45] accuracy_pitch/train: 0.1614
+I repo 05-14 02:21:18.257 utils.py:43] nll/train: 1.2345
+I repo 05-14 02:21:18.257 utils.py:43] nll_pitch/train: 0.6549
+I repo 05-14 02:21:18.257 utils.py:43] nll_rhythm/train: 0.5796
+I repo 05-14 02:21:18.257 utils.py:45] accuracy_rhythm/train: 0.7284
+I repo 05-14 02:21:18.257 utils.py:45] accuracy_pitch/train: 0.1938
+I repo 05-14 02:21:18.262 trainer.py:134] ==========valid 70 epoch==========
+I repo 05-14 02:21:18.516 utils.py:43] nll/eval: 1.3325
+I repo 05-14 02:21:18.516 utils.py:43] nll_pitch/eval: 0.7322
+I repo 05-14 02:21:18.516 utils.py:43] nll_rhythm/eval: 0.6003
+I repo 05-14 02:21:18.516 utils.py:45] accuracy_rhythm/eval: 0.7116
+I repo 05-14 02:21:18.516 utils.py:45] accuracy_pitch/eval: 0.1441
+I repo 05-14 02:21:18.517 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:21:18.517 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:21:18.523 trainer.py:87] saving model, Epoch 70, step 4620
+I repo 05-14 02:21:24.449 trainer.py:251] ==========sampling result of epoch 070==========
+I repo 05-14 02:21:24.454 trainer.py:255] Sample 00 : [14 49 49 49 14 48 48 48 48 48 48 49 49 49 49 49 49 49 49 49]
+I repo 05-14 02:21:24.635 trainer.py:273] Groundtruth 00 : [21 49 26 49 49 49 19 49 16 49 49 49  9 14 12 49 49 49 49 49]
+I repo 05-14 02:21:24.819 trainer.py:255] Sample 01 : [49 22 49 49 23 27 49 49 49 29 48 49 49 30 48 49 49 29 48 49]
+I repo 05-14 02:21:25.017 trainer.py:273] Groundtruth 01 : [49 49 28 49 31 49 49 36 49 49 27 49 24 49 49 16 49 49 49 49]
+I repo 05-14 02:21:25.203 trainer.py:255] Sample 02 : [49 49 49 49 12 49 49 49 14 49 49 49 14 49 49 49 12 49 14 49]
+I repo 05-14 02:21:25.383 trainer.py:273] Groundtruth 02 : [ 9 49 49 49 10 49 49 49  9 49 49 49  5 48 48 48 48 48 48 48]
+I repo 05-14 02:21:25.564 trainer.py:255] Sample 03 : [49 49 49 49 16 49 49 49 17 49 49 49 49 49 49 49 49 49 16 49]
+I repo 05-14 02:21:25.746 trainer.py:273] Groundtruth 03 : [49 15 14 49 49 12 49 49 24 49 49 49 49 49 49 49 12 49 49 49]
+I repo 05-14 02:21:26.108 trainer.py:255] Sample 04 : [24 48 20 49 49 24 49 49 49 49 49 49 24 49 24 23 49 49 23 49]
+I repo 05-14 02:21:26.282 trainer.py:273] Groundtruth 04 : [24 20 49 49 49 49 49 49 16  7 49 49 14 49 49 49 12 49 49 49]
+I repo 05-14 02:21:26.458 trainer.py:125] 
+I repo 05-14 02:21:26.458 trainer.py:126] 71 epoch
+I repo 05-14 02:21:26.458 trainer.py:129] ==========train 71 epoch==========
+I repo 05-14 02:21:35.462 utils.py:43] nll/train: 1.2369
+I repo 05-14 02:21:35.463 utils.py:43] nll_pitch/train: 0.6577
+I repo 05-14 02:21:35.463 utils.py:43] nll_rhythm/train: 0.5792
+I repo 05-14 02:21:35.463 utils.py:45] accuracy_rhythm/train: 0.7282
+I repo 05-14 02:21:35.463 utils.py:45] accuracy_pitch/train: 0.1905
+I repo 05-14 02:21:35.466 trainer.py:134] ==========valid 71 epoch==========
+I repo 05-14 02:21:35.723 utils.py:43] nll/eval: 1.3191
+I repo 05-14 02:21:35.723 utils.py:43] nll_pitch/eval: 0.7231
+I repo 05-14 02:21:35.723 utils.py:43] nll_rhythm/eval: 0.5960
+I repo 05-14 02:21:35.723 utils.py:45] accuracy_rhythm/eval: 0.7125
+I repo 05-14 02:21:35.724 utils.py:45] accuracy_pitch/eval: 0.1393
+I repo 05-14 02:21:35.729 trainer.py:125] 
+I repo 05-14 02:21:35.729 trainer.py:126] 72 epoch
+I repo 05-14 02:21:35.729 trainer.py:129] ==========train 72 epoch==========
+I repo 05-14 02:21:37.602 trainer.py:206] 4700 training steps
+I repo 05-14 02:21:37.641 utils.py:43] nll: 1.3144
+I repo 05-14 02:21:37.641 utils.py:43] nll_pitch: 0.6993
+I repo 05-14 02:21:37.641 utils.py:43] nll_rhythm: 0.6151
+I repo 05-14 02:21:37.642 utils.py:45] accuracy_rhythm/train: 0.7085
+I repo 05-14 02:21:37.642 utils.py:45] accuracy_pitch/train: 0.2214
+I repo 05-14 02:21:44.662 utils.py:43] nll/train: 1.2366
+I repo 05-14 02:21:44.662 utils.py:43] nll_pitch/train: 0.6570
+I repo 05-14 02:21:44.663 utils.py:43] nll_rhythm/train: 0.5796
+I repo 05-14 02:21:44.663 utils.py:45] accuracy_rhythm/train: 0.7279
+I repo 05-14 02:21:44.663 utils.py:45] accuracy_pitch/train: 0.1923
+I repo 05-14 02:21:44.667 trainer.py:134] ==========valid 72 epoch==========
+I repo 05-14 02:21:44.922 utils.py:43] nll/eval: 1.3116
+I repo 05-14 02:21:44.922 utils.py:43] nll_pitch/eval: 0.7138
+I repo 05-14 02:21:44.923 utils.py:43] nll_rhythm/eval: 0.5978
+I repo 05-14 02:21:44.923 utils.py:45] accuracy_rhythm/eval: 0.7137
+I repo 05-14 02:21:44.923 utils.py:45] accuracy_pitch/eval: 0.1438
+I repo 05-14 02:21:44.928 trainer.py:125] 
+I repo 05-14 02:21:44.929 trainer.py:126] 73 epoch
+I repo 05-14 02:21:44.929 trainer.py:129] ==========train 73 epoch==========
+I repo 05-14 02:21:51.424 trainer.py:206] 4800 training steps
+I repo 05-14 02:21:51.462 utils.py:43] nll: 1.2794
+I repo 05-14 02:21:51.462 utils.py:43] nll_pitch: 0.7196
+I repo 05-14 02:21:51.462 utils.py:43] nll_rhythm: 0.5598
+I repo 05-14 02:21:51.463 utils.py:45] accuracy_rhythm/train: 0.7329
+I repo 05-14 02:21:51.463 utils.py:45] accuracy_pitch/train: 0.1966
+I repo 05-14 02:21:53.877 utils.py:43] nll/train: 1.2337
+I repo 05-14 02:21:53.878 utils.py:43] nll_pitch/train: 0.6551
+I repo 05-14 02:21:53.878 utils.py:43] nll_rhythm/train: 0.5787
+I repo 05-14 02:21:53.878 utils.py:45] accuracy_rhythm/train: 0.7278
+I repo 05-14 02:21:53.878 utils.py:45] accuracy_pitch/train: 0.1936
+I repo 05-14 02:21:53.883 trainer.py:134] ==========valid 73 epoch==========
+I repo 05-14 02:21:54.137 utils.py:43] nll/eval: 1.3423
+I repo 05-14 02:21:54.137 utils.py:43] nll_pitch/eval: 0.7359
+I repo 05-14 02:21:54.137 utils.py:43] nll_rhythm/eval: 0.6064
+I repo 05-14 02:21:54.137 utils.py:45] accuracy_rhythm/eval: 0.7067
+I repo 05-14 02:21:54.137 utils.py:45] accuracy_pitch/eval: 0.1424
+I repo 05-14 02:21:54.138 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:21:54.139 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:21:54.143 trainer.py:125] 
+I repo 05-14 02:21:54.144 trainer.py:126] 74 epoch
+I repo 05-14 02:21:54.144 trainer.py:129] ==========train 74 epoch==========
+I repo 05-14 02:22:03.112 utils.py:43] nll/train: 1.2402
+I repo 05-14 02:22:03.112 utils.py:43] nll_pitch/train: 0.6600
+I repo 05-14 02:22:03.112 utils.py:43] nll_rhythm/train: 0.5802
+I repo 05-14 02:22:03.112 utils.py:45] accuracy_rhythm/train: 0.7273
+I repo 05-14 02:22:03.112 utils.py:45] accuracy_pitch/train: 0.1928
+I repo 05-14 02:22:03.115 trainer.py:134] ==========valid 74 epoch==========
+I repo 05-14 02:22:03.372 utils.py:43] nll/eval: 1.3298
+I repo 05-14 02:22:03.373 utils.py:43] nll_pitch/eval: 0.7284
+I repo 05-14 02:22:03.373 utils.py:43] nll_rhythm/eval: 0.6014
+I repo 05-14 02:22:03.373 utils.py:45] accuracy_rhythm/eval: 0.7094
+I repo 05-14 02:22:03.373 utils.py:45] accuracy_pitch/eval: 0.1457
+I repo 05-14 02:22:03.373 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:22:03.374 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:22:03.379 trainer.py:125] 
+I repo 05-14 02:22:03.379 trainer.py:126] 75 epoch
+I repo 05-14 02:22:03.380 trainer.py:129] ==========train 75 epoch==========
+I repo 05-14 02:22:05.525 trainer.py:206] 4900 training steps
+I repo 05-14 02:22:05.562 utils.py:43] nll: 1.1692
+I repo 05-14 02:22:05.563 utils.py:43] nll_pitch: 0.6113
+I repo 05-14 02:22:05.563 utils.py:43] nll_rhythm: 0.5579
+I repo 05-14 02:22:05.563 utils.py:45] accuracy_rhythm/train: 0.7329
+I repo 05-14 02:22:05.563 utils.py:45] accuracy_pitch/train: 0.2034
+I repo 05-14 02:22:12.352 utils.py:43] nll/train: 1.2343
+I repo 05-14 02:22:12.352 utils.py:43] nll_pitch/train: 0.6556
+I repo 05-14 02:22:12.352 utils.py:43] nll_rhythm/train: 0.5787
+I repo 05-14 02:22:12.352 utils.py:45] accuracy_rhythm/train: 0.7282
+I repo 05-14 02:22:12.352 utils.py:45] accuracy_pitch/train: 0.1934
+I repo 05-14 02:22:12.357 trainer.py:134] ==========valid 75 epoch==========
+I repo 05-14 02:22:12.611 utils.py:43] nll/eval: 1.3348
+I repo 05-14 02:22:12.611 utils.py:43] nll_pitch/eval: 0.7313
+I repo 05-14 02:22:12.611 utils.py:43] nll_rhythm/eval: 0.6034
+I repo 05-14 02:22:12.611 utils.py:45] accuracy_rhythm/eval: 0.7089
+I repo 05-14 02:22:12.612 utils.py:45] accuracy_pitch/eval: 0.1428
+I repo 05-14 02:22:12.612 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:22:12.613 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:22:12.618 trainer.py:125] 
+I repo 05-14 02:22:12.618 trainer.py:126] 76 epoch
+I repo 05-14 02:22:12.618 trainer.py:129] ==========train 76 epoch==========
+I repo 05-14 02:22:19.376 trainer.py:206] 5000 training steps
+I repo 05-14 02:22:19.414 utils.py:43] nll: 1.2031
+I repo 05-14 02:22:19.415 utils.py:43] nll_pitch: 0.6636
+I repo 05-14 02:22:19.415 utils.py:43] nll_rhythm: 0.5395
+I repo 05-14 02:22:19.415 utils.py:45] accuracy_rhythm/train: 0.7534
+I repo 05-14 02:22:19.415 utils.py:45] accuracy_pitch/train: 0.1738
+I repo 05-14 02:22:21.555 utils.py:43] nll/train: 1.2362
+I repo 05-14 02:22:21.556 utils.py:43] nll_pitch/train: 0.6565
+I repo 05-14 02:22:21.556 utils.py:43] nll_rhythm/train: 0.5797
+I repo 05-14 02:22:21.556 utils.py:45] accuracy_rhythm/train: 0.7272
+I repo 05-14 02:22:21.556 utils.py:45] accuracy_pitch/train: 0.1934
+I repo 05-14 02:22:21.561 trainer.py:134] ==========valid 76 epoch==========
+I repo 05-14 02:22:21.814 utils.py:43] nll/eval: 1.3275
+I repo 05-14 02:22:21.815 utils.py:43] nll_pitch/eval: 0.7228
+I repo 05-14 02:22:21.815 utils.py:43] nll_rhythm/eval: 0.6047
+I repo 05-14 02:22:21.815 utils.py:45] accuracy_rhythm/eval: 0.7094
+I repo 05-14 02:22:21.815 utils.py:45] accuracy_pitch/eval: 0.1421
+I repo 05-14 02:22:21.822 trainer.py:125] 
+I repo 05-14 02:22:21.822 trainer.py:126] 77 epoch
+I repo 05-14 02:22:21.823 trainer.py:129] ==========train 77 epoch==========
+I repo 05-14 02:22:30.777 utils.py:43] nll/train: 1.2344
+I repo 05-14 02:22:30.777 utils.py:43] nll_pitch/train: 0.6547
+I repo 05-14 02:22:30.777 utils.py:43] nll_rhythm/train: 0.5797
+I repo 05-14 02:22:30.777 utils.py:45] accuracy_rhythm/train: 0.7290
+I repo 05-14 02:22:30.777 utils.py:45] accuracy_pitch/train: 0.1917
+I repo 05-14 02:22:30.780 trainer.py:134] ==========valid 77 epoch==========
+I repo 05-14 02:22:31.038 utils.py:43] nll/eval: 1.3320
+I repo 05-14 02:22:31.038 utils.py:43] nll_pitch/eval: 0.7259
+I repo 05-14 02:22:31.038 utils.py:43] nll_rhythm/eval: 0.6061
+I repo 05-14 02:22:31.039 utils.py:45] accuracy_rhythm/eval: 0.7095
+I repo 05-14 02:22:31.039 utils.py:45] accuracy_pitch/eval: 0.1425
+I repo 05-14 02:22:31.039 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:22:31.040 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:22:31.047 trainer.py:125] 
+I repo 05-14 02:22:31.047 trainer.py:126] 78 epoch
+I repo 05-14 02:22:31.047 trainer.py:129] ==========train 78 epoch==========
+I repo 05-14 02:22:33.465 trainer.py:206] 5100 training steps
+I repo 05-14 02:22:33.503 utils.py:43] nll: 1.1890
+I repo 05-14 02:22:33.503 utils.py:43] nll_pitch: 0.5809
+I repo 05-14 02:22:33.504 utils.py:43] nll_rhythm: 0.6081
+I repo 05-14 02:22:33.504 utils.py:45] accuracy_rhythm/train: 0.7148
+I repo 05-14 02:22:33.504 utils.py:45] accuracy_pitch/train: 0.2182
+I repo 05-14 02:22:40.020 utils.py:43] nll/train: 1.2340
+I repo 05-14 02:22:40.020 utils.py:43] nll_pitch/train: 0.6543
+I repo 05-14 02:22:40.021 utils.py:43] nll_rhythm/train: 0.5797
+I repo 05-14 02:22:40.021 utils.py:45] accuracy_rhythm/train: 0.7284
+I repo 05-14 02:22:40.021 utils.py:45] accuracy_pitch/train: 0.1911
+I repo 05-14 02:22:40.025 trainer.py:134] ==========valid 78 epoch==========
+I repo 05-14 02:22:40.279 utils.py:43] nll/eval: 1.3475
+I repo 05-14 02:22:40.280 utils.py:43] nll_pitch/eval: 0.7356
+I repo 05-14 02:22:40.280 utils.py:43] nll_rhythm/eval: 0.6118
+I repo 05-14 02:22:40.280 utils.py:45] accuracy_rhythm/eval: 0.7056
+I repo 05-14 02:22:40.280 utils.py:45] accuracy_pitch/eval: 0.1422
+I repo 05-14 02:22:40.281 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:22:40.281 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:22:40.286 trainer.py:125] 
+I repo 05-14 02:22:40.286 trainer.py:126] 79 epoch
+I repo 05-14 02:22:40.286 trainer.py:129] ==========train 79 epoch==========
+I repo 05-14 02:22:47.288 trainer.py:206] 5200 training steps
+I repo 05-14 02:22:47.326 utils.py:43] nll: 1.3737
+I repo 05-14 02:22:47.327 utils.py:43] nll_pitch: 0.7853
+I repo 05-14 02:22:47.327 utils.py:43] nll_rhythm: 0.5885
+I repo 05-14 02:22:47.327 utils.py:45] accuracy_rhythm/train: 0.7178
+I repo 05-14 02:22:47.327 utils.py:45] accuracy_pitch/train: 0.1649
+I repo 05-14 02:22:49.201 utils.py:43] nll/train: 1.2340
+I repo 05-14 02:22:49.202 utils.py:43] nll_pitch/train: 0.6543
+I repo 05-14 02:22:49.202 utils.py:43] nll_rhythm/train: 0.5798
+I repo 05-14 02:22:49.202 utils.py:45] accuracy_rhythm/train: 0.7280
+I repo 05-14 02:22:49.202 utils.py:45] accuracy_pitch/train: 0.1925
+I repo 05-14 02:22:49.207 trainer.py:134] ==========valid 79 epoch==========
+I repo 05-14 02:22:49.468 utils.py:43] nll/eval: 1.2932
+I repo 05-14 02:22:49.468 utils.py:43] nll_pitch/eval: 0.7020
+I repo 05-14 02:22:49.468 utils.py:43] nll_rhythm/eval: 0.5912
+I repo 05-14 02:22:49.469 utils.py:45] accuracy_rhythm/eval: 0.7167
+I repo 05-14 02:22:49.469 utils.py:45] accuracy_pitch/eval: 0.1439
+I repo 05-14 02:22:49.475 trainer.py:125] 
+I repo 05-14 02:22:49.476 trainer.py:126] 80 epoch
+I repo 05-14 02:22:49.476 trainer.py:129] ==========train 80 epoch==========
+I repo 05-14 02:22:58.367 utils.py:43] nll/train: 1.2347
+I repo 05-14 02:22:58.368 utils.py:43] nll_pitch/train: 0.6559
+I repo 05-14 02:22:58.368 utils.py:43] nll_rhythm/train: 0.5788
+I repo 05-14 02:22:58.368 utils.py:45] accuracy_rhythm/train: 0.7282
+I repo 05-14 02:22:58.368 utils.py:45] accuracy_pitch/train: 0.1932
+I repo 05-14 02:22:58.371 trainer.py:134] ==========valid 80 epoch==========
+I repo 05-14 02:22:58.626 utils.py:43] nll/eval: 1.3310
+I repo 05-14 02:22:58.626 utils.py:43] nll_pitch/eval: 0.7253
+I repo 05-14 02:22:58.627 utils.py:43] nll_rhythm/eval: 0.6057
+I repo 05-14 02:22:58.627 utils.py:45] accuracy_rhythm/eval: 0.7092
+I repo 05-14 02:22:58.627 utils.py:45] accuracy_pitch/eval: 0.1407
+I repo 05-14 02:22:58.627 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:22:58.628 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:22:58.635 trainer.py:87] saving model, Epoch 80, step 5280
+I repo 05-14 02:23:04.406 trainer.py:251] ==========sampling result of epoch 080==========
+I repo 05-14 02:23:04.413 trainer.py:255] Sample 00 : [10 49 49 10 49 49 49 49 49 10  8 48 10 48 49 49 49 10 48  3]
+I repo 05-14 02:23:04.592 trainer.py:273] Groundtruth 00 : [12 10 48  4 49 49 49 49  3 48 48 48  6 10 49 13 10  8  6  1]
+I repo 05-14 02:23:04.774 trainer.py:255] Sample 01 : [49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49]
+I repo 05-14 02:23:04.953 trainer.py:273] Groundtruth 01 : [49 49 49 49 49 24 48 49 20 49 49 49 49 20 48 49 49 49 49 49]
+I repo 05-14 02:23:05.134 trainer.py:255] Sample 02 : [49 12  9 48  4  5  7  9 12  9 14 12 14 48 48 48 49 49 12 10]
+I repo 05-14 02:23:05.328 trainer.py:273] Groundtruth 02 : [48 48 48 48 48 48 49 49 49 17 24 24 17 14  9  5 49 49 49 49]
+I repo 05-14 02:23:05.521 trainer.py:255] Sample 03 : [49 49 11 49 12 12 49 49 12 49 49 49 14 12 49 49 12 49 49 49]
+I repo 05-14 02:23:05.708 trainer.py:273] Groundtruth 03 : [24 49 27 49 25 49 26 49 25 49 49 49 24 23 48 49 21 48 48 48]
+I repo 05-14 02:23:05.906 trainer.py:255] Sample 04 : [49 49 49 49 49 49 49 49 49 49 49 49  7 49 49 49  5 48 49 49]
+I repo 05-14 02:23:06.091 trainer.py:273] Groundtruth 04 : [49 49 49 49 49 49 16 49 17 49 49 49 16 49 49 49 12 48 48 49]
+I repo 05-14 02:23:06.279 trainer.py:125] 
+I repo 05-14 02:23:06.279 trainer.py:126] 81 epoch
+I repo 05-14 02:23:06.279 trainer.py:129] ==========train 81 epoch==========
+I repo 05-14 02:23:09.012 trainer.py:206] 5300 training steps
+I repo 05-14 02:23:09.047 utils.py:43] nll: 1.2766
+I repo 05-14 02:23:09.048 utils.py:43] nll_pitch: 0.6721
+I repo 05-14 02:23:09.048 utils.py:43] nll_rhythm: 0.6045
+I repo 05-14 02:23:09.048 utils.py:45] accuracy_rhythm/train: 0.7102
+I repo 05-14 02:23:09.048 utils.py:45] accuracy_pitch/train: 0.1878
+I repo 05-14 02:23:15.287 utils.py:43] nll/train: 1.2342
+I repo 05-14 02:23:15.288 utils.py:43] nll_pitch/train: 0.6550
+I repo 05-14 02:23:15.288 utils.py:43] nll_rhythm/train: 0.5792
+I repo 05-14 02:23:15.288 utils.py:45] accuracy_rhythm/train: 0.7282
+I repo 05-14 02:23:15.289 utils.py:45] accuracy_pitch/train: 0.1932
+I repo 05-14 02:23:15.293 trainer.py:134] ==========valid 81 epoch==========
+I repo 05-14 02:23:15.549 utils.py:43] nll/eval: 1.3221
+I repo 05-14 02:23:15.549 utils.py:43] nll_pitch/eval: 0.7224
+I repo 05-14 02:23:15.549 utils.py:43] nll_rhythm/eval: 0.5997
+I repo 05-14 02:23:15.549 utils.py:45] accuracy_rhythm/eval: 0.7133
+I repo 05-14 02:23:15.550 utils.py:45] accuracy_pitch/eval: 0.1472
+I repo 05-14 02:23:15.556 trainer.py:125] 
+I repo 05-14 02:23:15.556 trainer.py:126] 82 epoch
+I repo 05-14 02:23:15.556 trainer.py:129] ==========train 82 epoch==========
+I repo 05-14 02:23:22.880 trainer.py:206] 5400 training steps
+I repo 05-14 02:23:22.917 utils.py:43] nll: 1.3471
+I repo 05-14 02:23:22.918 utils.py:43] nll_pitch: 0.7354
+I repo 05-14 02:23:22.918 utils.py:43] nll_rhythm: 0.6117
+I repo 05-14 02:23:22.918 utils.py:45] accuracy_rhythm/train: 0.7151
+I repo 05-14 02:23:22.918 utils.py:45] accuracy_pitch/train: 0.1911
+I repo 05-14 02:23:24.513 utils.py:43] nll/train: 1.2319
+I repo 05-14 02:23:24.513 utils.py:43] nll_pitch/train: 0.6530
+I repo 05-14 02:23:24.514 utils.py:43] nll_rhythm/train: 0.5788
+I repo 05-14 02:23:24.514 utils.py:45] accuracy_rhythm/train: 0.7289
+I repo 05-14 02:23:24.514 utils.py:45] accuracy_pitch/train: 0.1939
+I repo 05-14 02:23:24.519 trainer.py:134] ==========valid 82 epoch==========
+I repo 05-14 02:23:24.771 utils.py:43] nll/eval: 1.3312
+I repo 05-14 02:23:24.772 utils.py:43] nll_pitch/eval: 0.7284
+I repo 05-14 02:23:24.772 utils.py:43] nll_rhythm/eval: 0.6028
+I repo 05-14 02:23:24.772 utils.py:45] accuracy_rhythm/eval: 0.7095
+I repo 05-14 02:23:24.772 utils.py:45] accuracy_pitch/eval: 0.1396
+I repo 05-14 02:23:24.773 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:23:24.773 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:23:24.778 trainer.py:125] 
+I repo 05-14 02:23:24.779 trainer.py:126] 83 epoch
+I repo 05-14 02:23:24.779 trainer.py:129] ==========train 83 epoch==========
+I repo 05-14 02:23:33.715 utils.py:43] nll/train: 1.2366
+I repo 05-14 02:23:33.716 utils.py:43] nll_pitch/train: 0.6568
+I repo 05-14 02:23:33.716 utils.py:43] nll_rhythm/train: 0.5798
+I repo 05-14 02:23:33.716 utils.py:45] accuracy_rhythm/train: 0.7276
+I repo 05-14 02:23:33.716 utils.py:45] accuracy_pitch/train: 0.1937
+I repo 05-14 02:23:33.719 trainer.py:134] ==========valid 83 epoch==========
+I repo 05-14 02:23:33.975 utils.py:43] nll/eval: 1.3180
+I repo 05-14 02:23:33.975 utils.py:43] nll_pitch/eval: 0.7162
+I repo 05-14 02:23:33.975 utils.py:43] nll_rhythm/eval: 0.6017
+I repo 05-14 02:23:33.975 utils.py:45] accuracy_rhythm/eval: 0.7106
+I repo 05-14 02:23:33.976 utils.py:45] accuracy_pitch/eval: 0.1456
+I repo 05-14 02:23:33.981 trainer.py:125] 
+I repo 05-14 02:23:33.981 trainer.py:126] 84 epoch
+I repo 05-14 02:23:33.981 trainer.py:129] ==========train 84 epoch==========
+I repo 05-14 02:23:36.935 trainer.py:206] 5500 training steps
+I repo 05-14 02:23:36.973 utils.py:43] nll: 1.2319
+I repo 05-14 02:23:36.973 utils.py:43] nll_pitch: 0.6638
+I repo 05-14 02:23:36.973 utils.py:43] nll_rhythm: 0.5681
+I repo 05-14 02:23:36.974 utils.py:45] accuracy_rhythm/train: 0.7319
+I repo 05-14 02:23:36.974 utils.py:45] accuracy_pitch/train: 0.1897
+I repo 05-14 02:23:42.937 utils.py:43] nll/train: 1.2348
+I repo 05-14 02:23:42.937 utils.py:43] nll_pitch/train: 0.6547
+I repo 05-14 02:23:42.937 utils.py:43] nll_rhythm/train: 0.5801
+I repo 05-14 02:23:42.937 utils.py:45] accuracy_rhythm/train: 0.7276
+I repo 05-14 02:23:42.938 utils.py:45] accuracy_pitch/train: 0.1929
+I repo 05-14 02:23:42.942 trainer.py:134] ==========valid 84 epoch==========
+I repo 05-14 02:23:43.195 utils.py:43] nll/eval: 1.3388
+I repo 05-14 02:23:43.196 utils.py:43] nll_pitch/eval: 0.7361
+I repo 05-14 02:23:43.196 utils.py:43] nll_rhythm/eval: 0.6027
+I repo 05-14 02:23:43.196 utils.py:45] accuracy_rhythm/eval: 0.7101
+I repo 05-14 02:23:43.196 utils.py:45] accuracy_pitch/eval: 0.1416
+I repo 05-14 02:23:43.197 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:23:43.197 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:23:43.202 trainer.py:125] 
+I repo 05-14 02:23:43.202 trainer.py:126] 85 epoch
+I repo 05-14 02:23:43.202 trainer.py:129] ==========train 85 epoch==========
+I repo 05-14 02:23:50.786 trainer.py:206] 5600 training steps
+I repo 05-14 02:23:50.824 utils.py:43] nll: 1.2194
+I repo 05-14 02:23:50.824 utils.py:43] nll_pitch: 0.6143
+I repo 05-14 02:23:50.825 utils.py:43] nll_rhythm: 0.6051
+I repo 05-14 02:23:50.825 utils.py:45] accuracy_rhythm/train: 0.7085
+I repo 05-14 02:23:50.825 utils.py:45] accuracy_pitch/train: 0.2086
+I repo 05-14 02:23:52.150 utils.py:43] nll/train: 1.2352
+I repo 05-14 02:23:52.151 utils.py:43] nll_pitch/train: 0.6552
+I repo 05-14 02:23:52.151 utils.py:43] nll_rhythm/train: 0.5800
+I repo 05-14 02:23:52.151 utils.py:45] accuracy_rhythm/train: 0.7280
+I repo 05-14 02:23:52.151 utils.py:45] accuracy_pitch/train: 0.1924
+I repo 05-14 02:23:52.156 trainer.py:134] ==========valid 85 epoch==========
+I repo 05-14 02:23:52.414 utils.py:43] nll/eval: 1.3224
+I repo 05-14 02:23:52.415 utils.py:43] nll_pitch/eval: 0.7194
+I repo 05-14 02:23:52.415 utils.py:43] nll_rhythm/eval: 0.6030
+I repo 05-14 02:23:52.415 utils.py:45] accuracy_rhythm/eval: 0.7109
+I repo 05-14 02:23:52.415 utils.py:45] accuracy_pitch/eval: 0.1440
+I repo 05-14 02:23:52.421 trainer.py:125] 
+I repo 05-14 02:23:52.421 trainer.py:126] 86 epoch
+I repo 05-14 02:23:52.421 trainer.py:129] ==========train 86 epoch==========
+I repo 05-14 02:24:01.375 utils.py:43] nll/train: 1.2346
+I repo 05-14 02:24:01.376 utils.py:43] nll_pitch/train: 0.6546
+I repo 05-14 02:24:01.376 utils.py:43] nll_rhythm/train: 0.5800
+I repo 05-14 02:24:01.376 utils.py:45] accuracy_rhythm/train: 0.7275
+I repo 05-14 02:24:01.376 utils.py:45] accuracy_pitch/train: 0.1934
+I repo 05-14 02:24:01.379 trainer.py:134] ==========valid 86 epoch==========
+I repo 05-14 02:24:01.635 utils.py:43] nll/eval: 1.3278
+I repo 05-14 02:24:01.636 utils.py:43] nll_pitch/eval: 0.7293
+I repo 05-14 02:24:01.636 utils.py:43] nll_rhythm/eval: 0.5986
+I repo 05-14 02:24:01.636 utils.py:45] accuracy_rhythm/eval: 0.7125
+I repo 05-14 02:24:01.636 utils.py:45] accuracy_pitch/eval: 0.1445
+I repo 05-14 02:24:01.637 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:24:01.637 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:24:01.644 trainer.py:125] 
+I repo 05-14 02:24:01.644 trainer.py:126] 87 epoch
+I repo 05-14 02:24:01.644 trainer.py:129] ==========train 87 epoch==========
+I repo 05-14 02:24:04.870 trainer.py:206] 5700 training steps
+I repo 05-14 02:24:04.908 utils.py:43] nll: 1.0594
+I repo 05-14 02:24:04.908 utils.py:43] nll_pitch: 0.5212
+I repo 05-14 02:24:04.908 utils.py:43] nll_rhythm: 0.5382
+I repo 05-14 02:24:04.909 utils.py:45] accuracy_rhythm/train: 0.7544
+I repo 05-14 02:24:04.909 utils.py:45] accuracy_pitch/train: 0.2167
+I repo 05-14 02:24:10.581 utils.py:43] nll/train: 1.2330
+I repo 05-14 02:24:10.582 utils.py:43] nll_pitch/train: 0.6534
+I repo 05-14 02:24:10.582 utils.py:43] nll_rhythm/train: 0.5796
+I repo 05-14 02:24:10.582 utils.py:45] accuracy_rhythm/train: 0.7286
+I repo 05-14 02:24:10.582 utils.py:45] accuracy_pitch/train: 0.1910
+I repo 05-14 02:24:10.586 trainer.py:134] ==========valid 87 epoch==========
+I repo 05-14 02:24:10.841 utils.py:43] nll/eval: 1.3367
+I repo 05-14 02:24:10.841 utils.py:43] nll_pitch/eval: 0.7360
+I repo 05-14 02:24:10.841 utils.py:43] nll_rhythm/eval: 0.6007
+I repo 05-14 02:24:10.842 utils.py:45] accuracy_rhythm/eval: 0.7095
+I repo 05-14 02:24:10.842 utils.py:45] accuracy_pitch/eval: 0.1401
+I repo 05-14 02:24:10.842 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:24:10.843 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:24:10.848 trainer.py:125] 
+I repo 05-14 02:24:10.848 trainer.py:126] 88 epoch
+I repo 05-14 02:24:10.848 trainer.py:129] ==========train 88 epoch==========
+I repo 05-14 02:24:18.679 trainer.py:206] 5800 training steps
+I repo 05-14 02:24:18.717 utils.py:43] nll: 1.0761
+I repo 05-14 02:24:18.717 utils.py:43] nll_pitch: 0.5312
+I repo 05-14 02:24:18.717 utils.py:43] nll_rhythm: 0.5449
+I repo 05-14 02:24:18.717 utils.py:45] accuracy_rhythm/train: 0.7446
+I repo 05-14 02:24:18.717 utils.py:45] accuracy_pitch/train: 0.2025
+I repo 05-14 02:24:19.769 utils.py:43] nll/train: 1.2324
+I repo 05-14 02:24:19.769 utils.py:43] nll_pitch/train: 0.6521
+I repo 05-14 02:24:19.769 utils.py:43] nll_rhythm/train: 0.5802
+I repo 05-14 02:24:19.769 utils.py:45] accuracy_rhythm/train: 0.7276
+I repo 05-14 02:24:19.770 utils.py:45] accuracy_pitch/train: 0.1962
+I repo 05-14 02:24:19.773 trainer.py:134] ==========valid 88 epoch==========
+I repo 05-14 02:24:20.028 utils.py:43] nll/eval: 1.3241
+I repo 05-14 02:24:20.028 utils.py:43] nll_pitch/eval: 0.7160
+I repo 05-14 02:24:20.028 utils.py:43] nll_rhythm/eval: 0.6081
+I repo 05-14 02:24:20.028 utils.py:45] accuracy_rhythm/eval: 0.7066
+I repo 05-14 02:24:20.028 utils.py:45] accuracy_pitch/eval: 0.1439
+I repo 05-14 02:24:20.035 trainer.py:125] 
+I repo 05-14 02:24:20.035 trainer.py:126] 89 epoch
+I repo 05-14 02:24:20.035 trainer.py:129] ==========train 89 epoch==========
+I repo 05-14 02:24:28.963 utils.py:43] nll/train: 1.2359
+I repo 05-14 02:24:28.963 utils.py:43] nll_pitch/train: 0.6560
+I repo 05-14 02:24:28.964 utils.py:43] nll_rhythm/train: 0.5799
+I repo 05-14 02:24:28.964 utils.py:45] accuracy_rhythm/train: 0.7278
+I repo 05-14 02:24:28.964 utils.py:45] accuracy_pitch/train: 0.1966
+I repo 05-14 02:24:28.967 trainer.py:134] ==========valid 89 epoch==========
+I repo 05-14 02:24:29.227 utils.py:43] nll/eval: 1.3382
+I repo 05-14 02:24:29.227 utils.py:43] nll_pitch/eval: 0.7335
+I repo 05-14 02:24:29.227 utils.py:43] nll_rhythm/eval: 0.6047
+I repo 05-14 02:24:29.227 utils.py:45] accuracy_rhythm/eval: 0.7075
+I repo 05-14 02:24:29.227 utils.py:45] accuracy_pitch/eval: 0.1412
+I repo 05-14 02:24:29.228 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:24:29.228 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:24:29.233 trainer.py:125] 
+I repo 05-14 02:24:29.234 trainer.py:126] 90 epoch
+I repo 05-14 02:24:29.234 trainer.py:129] ==========train 90 epoch==========
+I repo 05-14 02:24:32.738 trainer.py:206] 5900 training steps
+I repo 05-14 02:24:32.775 utils.py:43] nll: 1.2283
+I repo 05-14 02:24:32.776 utils.py:43] nll_pitch: 0.6601
+I repo 05-14 02:24:32.776 utils.py:43] nll_rhythm: 0.5682
+I repo 05-14 02:24:32.776 utils.py:45] accuracy_rhythm/train: 0.7312
+I repo 05-14 02:24:32.776 utils.py:45] accuracy_pitch/train: 0.1836
+I repo 05-14 02:24:38.155 utils.py:43] nll/train: 1.2292
+I repo 05-14 02:24:38.156 utils.py:43] nll_pitch/train: 0.6507
+I repo 05-14 02:24:38.156 utils.py:43] nll_rhythm/train: 0.5785
+I repo 05-14 02:24:38.156 utils.py:45] accuracy_rhythm/train: 0.7282
+I repo 05-14 02:24:38.156 utils.py:45] accuracy_pitch/train: 0.1954
+I repo 05-14 02:24:38.160 trainer.py:134] ==========valid 90 epoch==========
+I repo 05-14 02:24:38.415 utils.py:43] nll/eval: 1.3406
+I repo 05-14 02:24:38.416 utils.py:43] nll_pitch/eval: 0.7383
+I repo 05-14 02:24:38.416 utils.py:43] nll_rhythm/eval: 0.6023
+I repo 05-14 02:24:38.416 utils.py:45] accuracy_rhythm/eval: 0.7098
+I repo 05-14 02:24:38.416 utils.py:45] accuracy_pitch/eval: 0.1396
+I repo 05-14 02:24:38.416 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:24:38.417 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:24:38.422 trainer.py:87] saving model, Epoch 90, step 5940
+I repo 05-14 02:24:44.572 trainer.py:251] ==========sampling result of epoch 090==========
+I repo 05-14 02:24:44.585 trainer.py:255] Sample 00 : [20 49 49 49 49 49 49 49 49 49 49 49 19 49 49 49 49 49 19 49]
+I repo 05-14 02:24:44.768 trainer.py:273] Groundtruth 00 : [49 49 28 49 31 49 49 36 49 49 27 49 24 49 49 16 49 49 49 49]
+I repo 05-14 02:24:44.948 trainer.py:255] Sample 01 : [24 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49]
+I repo 05-14 02:24:45.138 trainer.py:273] Groundtruth 01 : [49 20 49 49 49 49 49 49 49 18 49 49 49 49 17 49 49 10  7 49]
+I repo 05-14 02:24:45.317 trainer.py:255] Sample 02 : [24 48 24 23 21 48 48 48 49 49 23 49 27 48 48 49 28 48 27 48]
+I repo 05-14 02:24:45.502 trainer.py:273] Groundtruth 02 : [20 15 19 14 49 13  6  7 12 48 12 16 49 49 49 49 19  9 14 19]
+I repo 05-14 02:24:45.686 trainer.py:255] Sample 03 : [48 48 48 48 48 48 48 48 48 15 48 48 48 48 48 48 48 48 48 48]
+I repo 05-14 02:24:46.041 trainer.py:273] Groundtruth 03 : [48 48  9 48 48 48 48 48 48 48 48 48 48 48 10 48 48 48 48 48]
+I repo 05-14 02:24:46.225 trainer.py:255] Sample 04 : [49 49  8 48 49 49  5 49  7 48 49 49 49 49 49 49 49 49 10 49]
+I repo 05-14 02:24:46.399 trainer.py:273] Groundtruth 04 : [49 49 49 49 49 49 49 49 15 49 49 49 49 19 49 49 22 48 49 49]
+I repo 05-14 02:24:46.569 trainer.py:125] 
+I repo 05-14 02:24:46.570 trainer.py:126] 91 epoch
+I repo 05-14 02:24:46.570 trainer.py:129] ==========train 91 epoch==========
+I repo 05-14 02:24:54.778 trainer.py:206] 6000 training steps
+I repo 05-14 02:24:54.812 utils.py:43] nll: 1.3228
+I repo 05-14 02:24:54.813 utils.py:43] nll_pitch: 0.7161
+I repo 05-14 02:24:54.813 utils.py:43] nll_rhythm: 0.6067
+I repo 05-14 02:24:54.813 utils.py:45] accuracy_rhythm/train: 0.7244
+I repo 05-14 02:24:54.813 utils.py:45] accuracy_pitch/train: 0.1882
+I repo 05-14 02:24:55.589 utils.py:43] nll/train: 1.2333
+I repo 05-14 02:24:55.590 utils.py:43] nll_pitch/train: 0.6533
+I repo 05-14 02:24:55.590 utils.py:43] nll_rhythm/train: 0.5800
+I repo 05-14 02:24:55.590 utils.py:45] accuracy_rhythm/train: 0.7284
+I repo 05-14 02:24:55.590 utils.py:45] accuracy_pitch/train: 0.1928
+I repo 05-14 02:24:55.594 trainer.py:134] ==========valid 91 epoch==========
+I repo 05-14 02:24:55.849 utils.py:43] nll/eval: 1.3436
+I repo 05-14 02:24:55.849 utils.py:43] nll_pitch/eval: 0.7371
+I repo 05-14 02:24:55.849 utils.py:43] nll_rhythm/eval: 0.6065
+I repo 05-14 02:24:55.849 utils.py:45] accuracy_rhythm/eval: 0.7097
+I repo 05-14 02:24:55.850 utils.py:45] accuracy_pitch/eval: 0.1401
+I repo 05-14 02:24:55.850 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:24:55.851 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:24:55.856 trainer.py:125] 
+I repo 05-14 02:24:55.856 trainer.py:126] 92 epoch
+I repo 05-14 02:24:55.856 trainer.py:129] ==========train 92 epoch==========
+I repo 05-14 02:25:04.773 utils.py:43] nll/train: 1.2328
+I repo 05-14 02:25:04.774 utils.py:43] nll_pitch/train: 0.6541
+I repo 05-14 02:25:04.774 utils.py:43] nll_rhythm/train: 0.5786
+I repo 05-14 02:25:04.774 utils.py:45] accuracy_rhythm/train: 0.7283
+I repo 05-14 02:25:04.774 utils.py:45] accuracy_pitch/train: 0.1928
+I repo 05-14 02:25:04.777 trainer.py:134] ==========valid 92 epoch==========
+I repo 05-14 02:25:05.032 utils.py:43] nll/eval: 1.3318
+I repo 05-14 02:25:05.032 utils.py:43] nll_pitch/eval: 0.7263
+I repo 05-14 02:25:05.033 utils.py:43] nll_rhythm/eval: 0.6055
+I repo 05-14 02:25:05.033 utils.py:45] accuracy_rhythm/eval: 0.7095
+I repo 05-14 02:25:05.033 utils.py:45] accuracy_pitch/eval: 0.1439
+I repo 05-14 02:25:05.038 trainer.py:125] 
+I repo 05-14 02:25:05.038 trainer.py:126] 93 epoch
+I repo 05-14 02:25:05.038 trainer.py:129] ==========train 93 epoch==========
+I repo 05-14 02:25:08.800 trainer.py:206] 6100 training steps
+I repo 05-14 02:25:08.838 utils.py:43] nll: 1.3920
+I repo 05-14 02:25:08.838 utils.py:43] nll_pitch: 0.7743
+I repo 05-14 02:25:08.838 utils.py:43] nll_rhythm: 0.6177
+I repo 05-14 02:25:08.839 utils.py:45] accuracy_rhythm/train: 0.7061
+I repo 05-14 02:25:08.839 utils.py:45] accuracy_pitch/train: 0.1966
+I repo 05-14 02:25:13.954 utils.py:43] nll/train: 1.2332
+I repo 05-14 02:25:13.954 utils.py:43] nll_pitch/train: 0.6533
+I repo 05-14 02:25:13.955 utils.py:43] nll_rhythm/train: 0.5798
+I repo 05-14 02:25:13.955 utils.py:45] accuracy_rhythm/train: 0.7281
+I repo 05-14 02:25:13.955 utils.py:45] accuracy_pitch/train: 0.1945
+I repo 05-14 02:25:13.958 trainer.py:134] ==========valid 93 epoch==========
+I repo 05-14 02:25:14.217 utils.py:43] nll/eval: 1.3378
+I repo 05-14 02:25:14.217 utils.py:43] nll_pitch/eval: 0.7299
+I repo 05-14 02:25:14.217 utils.py:43] nll_rhythm/eval: 0.6080
+I repo 05-14 02:25:14.217 utils.py:45] accuracy_rhythm/eval: 0.7074
+I repo 05-14 02:25:14.217 utils.py:45] accuracy_pitch/eval: 0.1444
+I repo 05-14 02:25:14.223 trainer.py:125] 
+I repo 05-14 02:25:14.223 trainer.py:126] 94 epoch
+I repo 05-14 02:25:14.223 trainer.py:129] ==========train 94 epoch==========
+I repo 05-14 02:25:22.571 trainer.py:206] 6200 training steps
+I repo 05-14 02:25:22.611 utils.py:43] nll: 1.1876
+I repo 05-14 02:25:22.611 utils.py:43] nll_pitch: 0.6144
+I repo 05-14 02:25:22.611 utils.py:43] nll_rhythm: 0.5732
+I repo 05-14 02:25:22.611 utils.py:45] accuracy_rhythm/train: 0.7380
+I repo 05-14 02:25:22.612 utils.py:45] accuracy_pitch/train: 0.1896
+I repo 05-14 02:25:23.118 utils.py:43] nll/train: 1.2336
+I repo 05-14 02:25:23.118 utils.py:43] nll_pitch/train: 0.6533
+I repo 05-14 02:25:23.118 utils.py:43] nll_rhythm/train: 0.5803
+I repo 05-14 02:25:23.118 utils.py:45] accuracy_rhythm/train: 0.7273
+I repo 05-14 02:25:23.119 utils.py:45] accuracy_pitch/train: 0.1955
+I repo 05-14 02:25:23.123 trainer.py:134] ==========valid 94 epoch==========
+I repo 05-14 02:25:23.378 utils.py:43] nll/eval: 1.3272
+I repo 05-14 02:25:23.379 utils.py:43] nll_pitch/eval: 0.7292
+I repo 05-14 02:25:23.379 utils.py:43] nll_rhythm/eval: 0.5981
+I repo 05-14 02:25:23.379 utils.py:45] accuracy_rhythm/eval: 0.7123
+I repo 05-14 02:25:23.379 utils.py:45] accuracy_pitch/eval: 0.1449
+I repo 05-14 02:25:23.384 trainer.py:125] 
+I repo 05-14 02:25:23.385 trainer.py:126] 95 epoch
+I repo 05-14 02:25:23.385 trainer.py:129] ==========train 95 epoch==========
+I repo 05-14 02:25:32.264 utils.py:43] nll/train: 1.2310
+I repo 05-14 02:25:32.265 utils.py:43] nll_pitch/train: 0.6516
+I repo 05-14 02:25:32.265 utils.py:43] nll_rhythm/train: 0.5794
+I repo 05-14 02:25:32.265 utils.py:45] accuracy_rhythm/train: 0.7277
+I repo 05-14 02:25:32.265 utils.py:45] accuracy_pitch/train: 0.1955
+I repo 05-14 02:25:32.268 trainer.py:134] ==========valid 95 epoch==========
+I repo 05-14 02:25:32.531 utils.py:43] nll/eval: 1.3298
+I repo 05-14 02:25:32.531 utils.py:43] nll_pitch/eval: 0.7280
+I repo 05-14 02:25:32.531 utils.py:43] nll_rhythm/eval: 0.6018
+I repo 05-14 02:25:32.531 utils.py:45] accuracy_rhythm/eval: 0.7102
+I repo 05-14 02:25:32.532 utils.py:45] accuracy_pitch/eval: 0.1451
+I repo 05-14 02:25:32.537 trainer.py:125] 
+I repo 05-14 02:25:32.538 trainer.py:126] 96 epoch
+I repo 05-14 02:25:32.538 trainer.py:129] ==========train 96 epoch==========
+I repo 05-14 02:25:36.570 trainer.py:206] 6300 training steps
+I repo 05-14 02:25:36.609 utils.py:43] nll: 1.1389
+I repo 05-14 02:25:36.610 utils.py:43] nll_pitch: 0.6137
+I repo 05-14 02:25:36.610 utils.py:43] nll_rhythm: 0.5252
+I repo 05-14 02:25:36.610 utils.py:45] accuracy_rhythm/train: 0.7515
+I repo 05-14 02:25:36.610 utils.py:45] accuracy_pitch/train: 0.1968
+I repo 05-14 02:25:41.441 utils.py:43] nll/train: 1.2337
+I repo 05-14 02:25:41.441 utils.py:43] nll_pitch/train: 0.6534
+I repo 05-14 02:25:41.442 utils.py:43] nll_rhythm/train: 0.5803
+I repo 05-14 02:25:41.442 utils.py:45] accuracy_rhythm/train: 0.7276
+I repo 05-14 02:25:41.442 utils.py:45] accuracy_pitch/train: 0.1918
+I repo 05-14 02:25:41.445 trainer.py:134] ==========valid 96 epoch==========
+I repo 05-14 02:25:41.699 utils.py:43] nll/eval: 1.3309
+I repo 05-14 02:25:41.700 utils.py:43] nll_pitch/eval: 0.7272
+I repo 05-14 02:25:41.700 utils.py:43] nll_rhythm/eval: 0.6037
+I repo 05-14 02:25:41.700 utils.py:45] accuracy_rhythm/eval: 0.7089
+I repo 05-14 02:25:41.700 utils.py:45] accuracy_pitch/eval: 0.1432
+I repo 05-14 02:25:41.706 trainer.py:125] 
+I repo 05-14 02:25:41.706 trainer.py:126] 97 epoch
+I repo 05-14 02:25:41.706 trainer.py:129] ==========train 97 epoch==========
+I repo 05-14 02:25:50.345 trainer.py:206] 6400 training steps
+I repo 05-14 02:25:50.384 utils.py:43] nll: 1.2359
+I repo 05-14 02:25:50.385 utils.py:43] nll_pitch: 0.6482
+I repo 05-14 02:25:50.385 utils.py:43] nll_rhythm: 0.5877
+I repo 05-14 02:25:50.385 utils.py:45] accuracy_rhythm/train: 0.7209
+I repo 05-14 02:25:50.385 utils.py:45] accuracy_pitch/train: 0.1764
+I repo 05-14 02:25:50.621 utils.py:43] nll/train: 1.2300
+I repo 05-14 02:25:50.621 utils.py:43] nll_pitch/train: 0.6501
+I repo 05-14 02:25:50.621 utils.py:43] nll_rhythm/train: 0.5798
+I repo 05-14 02:25:50.621 utils.py:45] accuracy_rhythm/train: 0.7278
+I repo 05-14 02:25:50.621 utils.py:45] accuracy_pitch/train: 0.1963
+I repo 05-14 02:25:50.624 trainer.py:134] ==========valid 97 epoch==========
+I repo 05-14 02:25:50.879 utils.py:43] nll/eval: 1.3350
+I repo 05-14 02:25:50.880 utils.py:43] nll_pitch/eval: 0.7355
+I repo 05-14 02:25:50.880 utils.py:43] nll_rhythm/eval: 0.5995
+I repo 05-14 02:25:50.880 utils.py:45] accuracy_rhythm/eval: 0.7120
+I repo 05-14 02:25:50.880 utils.py:45] accuracy_pitch/eval: 0.1451
+I repo 05-14 02:25:50.880 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:25:50.881 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:25:50.886 trainer.py:125] 
+I repo 05-14 02:25:50.886 trainer.py:126] 98 epoch
+I repo 05-14 02:25:50.886 trainer.py:129] ==========train 98 epoch==========
+I repo 05-14 02:25:59.805 utils.py:43] nll/train: 1.2290
+I repo 05-14 02:25:59.805 utils.py:43] nll_pitch/train: 0.6493
+I repo 05-14 02:25:59.805 utils.py:43] nll_rhythm/train: 0.5797
+I repo 05-14 02:25:59.805 utils.py:45] accuracy_rhythm/train: 0.7282
+I repo 05-14 02:25:59.805 utils.py:45] accuracy_pitch/train: 0.1945
+I repo 05-14 02:25:59.808 trainer.py:134] ==========valid 98 epoch==========
+I repo 05-14 02:26:00.061 utils.py:43] nll/eval: 1.3321
+I repo 05-14 02:26:00.062 utils.py:43] nll_pitch/eval: 0.7305
+I repo 05-14 02:26:00.062 utils.py:43] nll_rhythm/eval: 0.6015
+I repo 05-14 02:26:00.062 utils.py:45] accuracy_rhythm/eval: 0.7082
+I repo 05-14 02:26:00.062 utils.py:45] accuracy_pitch/eval: 0.1409
+I repo 05-14 02:26:00.063 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:26:00.064 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:26:00.068 trainer.py:125] 
+I repo 05-14 02:26:00.068 trainer.py:126] 99 epoch
+I repo 05-14 02:26:00.069 trainer.py:129] ==========train 99 epoch==========
+I repo 05-14 02:26:04.347 trainer.py:206] 6500 training steps
+I repo 05-14 02:26:04.387 utils.py:43] nll: 1.0926
+I repo 05-14 02:26:04.387 utils.py:43] nll_pitch: 0.5453
+I repo 05-14 02:26:04.387 utils.py:43] nll_rhythm: 0.5474
+I repo 05-14 02:26:04.387 utils.py:45] accuracy_rhythm/train: 0.7583
+I repo 05-14 02:26:04.388 utils.py:45] accuracy_pitch/train: 0.1822
+I repo 05-14 02:26:08.943 utils.py:43] nll/train: 1.2325
+I repo 05-14 02:26:08.944 utils.py:43] nll_pitch/train: 0.6521
+I repo 05-14 02:26:08.944 utils.py:43] nll_rhythm/train: 0.5804
+I repo 05-14 02:26:08.944 utils.py:45] accuracy_rhythm/train: 0.7272
+I repo 05-14 02:26:08.944 utils.py:45] accuracy_pitch/train: 0.1940
+I repo 05-14 02:26:08.948 trainer.py:134] ==========valid 99 epoch==========
+I repo 05-14 02:26:09.202 utils.py:43] nll/eval: 1.3372
+I repo 05-14 02:26:09.203 utils.py:43] nll_pitch/eval: 0.7329
+I repo 05-14 02:26:09.203 utils.py:43] nll_rhythm/eval: 0.6043
+I repo 05-14 02:26:09.203 utils.py:45] accuracy_rhythm/eval: 0.7102
+I repo 05-14 02:26:09.203 utils.py:45] accuracy_pitch/eval: 0.1418
+I repo 05-14 02:26:09.204 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:26:09.204 trainer.py:102] adjusting learning rate from 0.000001 to 0.000001
+I repo 05-14 02:26:09.209 trainer.py:125] 
+I repo 05-14 02:26:09.209 trainer.py:126] 100 epoch
+I repo 05-14 02:26:09.210 trainer.py:129] ==========train 100 epoch==========
+I repo 05-14 02:26:18.091 trainer.py:206] 6600 training steps
+I repo 05-14 02:26:18.131 utils.py:43] nll: 1.0052
+I repo 05-14 02:26:18.131 utils.py:43] nll_pitch: 0.4880
+I repo 05-14 02:26:18.131 utils.py:43] nll_rhythm: 0.5172
+I repo 05-14 02:26:18.131 utils.py:45] accuracy_rhythm/train: 0.7627
+I repo 05-14 02:26:18.131 utils.py:45] accuracy_pitch/train: 0.1979
+I repo 05-14 02:26:18.132 utils.py:43] nll/train: 1.2321
+I repo 05-14 02:26:18.132 utils.py:43] nll_pitch/train: 0.6520
+I repo 05-14 02:26:18.132 utils.py:43] nll_rhythm/train: 0.5801
+I repo 05-14 02:26:18.132 utils.py:45] accuracy_rhythm/train: 0.7277
+I repo 05-14 02:26:18.133 utils.py:45] accuracy_pitch/train: 0.1927
+I repo 05-14 02:26:18.136 trainer.py:134] ==========valid 100 epoch==========
+I repo 05-14 02:26:18.363 utils.py:43] nll/eval: 1.3283
+I repo 05-14 02:26:18.363 utils.py:43] nll_pitch/eval: 0.7239
+I repo 05-14 02:26:18.364 utils.py:43] nll_rhythm/eval: 0.6044
+I repo 05-14 02:26:18.364 utils.py:45] accuracy_rhythm/eval: 0.7092
+I repo 05-14 02:26:18.364 utils.py:45] accuracy_pitch/eval: 0.1415
+I repo 05-14 02:26:18.370 trainer.py:87] saving model, Epoch 100, step 6600
+I repo 05-14 02:26:24.091 trainer.py:251] ==========sampling result of epoch 100==========
+I repo 05-14 02:26:24.096 trainer.py:255] Sample 00 : [12 49 49 49 10 48 48 49 49 49 49 49 49 49 49 49 49 49 49 49]
+I repo 05-14 02:26:24.271 trainer.py:273] Groundtruth 00 : [49 15 14 49 19 49 49 49 14 49 49 14 49 49 49 49 49 49 13 48]
+I repo 05-14 02:26:24.452 trainer.py:255] Sample 01 : [23 49 49 49 23 49 49 49 21 49 49 49 19 17 49 49 49 49 16 49]
+I repo 05-14 02:26:24.633 trainer.py:273] Groundtruth 01 : [49 18 49 49 49 49 49 49 49 49 49 49 49 49 49 49 24 49 21 49]
+I repo 05-14 02:26:24.815 trainer.py:255] Sample 02 : [12 48  9 48  9 48 48 48 48 48 48 48 48 14 48 17 14 48 12 11]
+I repo 05-14 02:26:24.998 trainer.py:273] Groundtruth 02 : [48 48 48 22 18 49 21 48 48 48 48 26 24 19 17  9  9 11 49  7]
+I repo 05-14 02:26:25.189 trainer.py:255] Sample 03 : [14 48 48 48 49 49 49 49 49 49 49 49 12 49 49 49 14 48 48 48]
+I repo 05-14 02:26:25.367 trainer.py:273] Groundtruth 03 : [49 49 49 15 16 13 12 49  7 48 49 49 19 48 48 48 48 48 48 48]
+I repo 05-14 02:26:25.543 trainer.py:255] Sample 04 : [49 49 49 49 49 49 20 49 49 49 21 49 49 49 17 49 15 49 15 49]
+I repo 05-14 02:26:25.721 trainer.py:273] Groundtruth 04 : [49 49 49 49 49 49 49 49 49 49 49 49 21 22 24 49 25 49 49 49]

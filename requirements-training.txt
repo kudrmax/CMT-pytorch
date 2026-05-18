@@ -1,0 +1,18 @@
+# Training-time dependencies for CMT orchestrator (training/train.py).
+# Install AFTER requirements-data-prep.txt — these are heavy ML deps required
+# only when actually running training (not for chord parsing / converter tests).
+#
+# Used by:
+#   - authorial run.py / trainer.py / model.py (torch, tensorboardX, matplotlib)
+#   - authorial preprocess.py with --shift (numpy, scipy, tqdm)
+#
+# Install:
+#   source .venv/bin/activate
+#   pip install -r requirements-training.txt
+
+torch>=2.0
+tensorboardX>=2.6
+matplotlib>=3.7
+numpy>=1.24
+scipy>=1.10
+tqdm>=4.65

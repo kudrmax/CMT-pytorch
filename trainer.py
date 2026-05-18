@@ -8,6 +8,11 @@ from utils import logger
 from utils.metrics import cal_metrics
 from utils.utils import *
 from dataset import collate_fn
+from training.epochs_csv import (
+    append_epoch_row,
+    build_epoch_row,
+    truncate_epochs_csv,
+)
 
 x_fontdict = {'fontsize': 6,
              'verticalalignment': 'top',
@@ -107,10 +112,13 @@ class CMTtrainer(BaseTrainer):
         # for logging
         self.losses = defaultdict(list)
         self.tf_writer = get_tfwriter(asset_path)
+        self._epoch_csv_path = os.path.join(self.asset_path, 'epochs.csv')
+        self._epoch_row_buffer: dict = {}
 
     def train(self, **kwargs):
         # load model if exists
         self.load_model(kwargs["restore_epoch"], kwargs["load_rhythm"])
+        truncate_epochs_csv(self._epoch_csv_path, kwargs["restore_epoch"])
 
         # start training
         for epoch in range(self.loading_epoch, self.config['max_epoch']):
@@ -125,6 +133,9 @@ class CMTtrainer(BaseTrainer):
             with torch.no_grad():
                 logger.info("==========valid %d epoch==========" % epoch)
                 self._epoch(epoch, 'eval', self.config['rhythm_only'])
+                self._epoch_row_buffer['epoch'] = epoch
+                append_epoch_row(self._epoch_csv_path, self._epoch_row_buffer)
+                self._epoch_row_buffer = {}
                 if epoch > self.loading_epoch and ((epoch < 100 and epoch % 10 == 0) or epoch % 100 == 0):
                     self.save_model(epoch, self.current_step)
                     if not self.config['rhythm_only']:
@@ -208,6 +219,10 @@ class CMTtrainer(BaseTrainer):
         print_result(losses, results)
         tensorboard_logging_result(self.tf_writer, epoch, losses)
         tensorboard_logging_result(self.tf_writer, epoch, results)
+
+        self._epoch_row_buffer = build_epoch_row(
+            mode, rhythm_only, losses, results, self._epoch_row_buffer,
+        )
 
         self.losses[mode].append((total_rhythm_loss + total_pitch_loss) / len(loader))
         if mode == 'eval':

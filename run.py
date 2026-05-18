@@ -21,12 +21,14 @@ parser.add_argument('--optim_name', type=str, default='adam')
 parser.add_argument('--restore_epoch', type=int, default=-1)
 parser.add_argument('--load_rhythm', dest='load_rhythm', action='store_true')
 parser.add_argument('--seed', type=int, default=1)
+parser.add_argument('--hparams', type=str, default='hparams.yaml',
+                    help='Path to hparams YAML (default: hparams.yaml)')
 args = parser.parse_args()
 
 use_cuda = torch.cuda.is_available()
 device = torch.device("cuda:%d" % args.gpu_index if use_cuda else "cpu")
 
-hparam_file = os.path.join(os.getcwd(), "hparams.yaml")
+hparam_file = args.hparams if os.path.isabs(args.hparams) else os.path.join(os.getcwd(), args.hparams)
 
 config = HParams.load(hparam_file)
 data_config = config.data_io

@@ -3,6 +3,47 @@ Source code and generated samples for CMT (Chord Conditioned Melody Transformer)
 ["Chord Conditioned Melody Generation with Transformer Based Decoders"](https://ieeexplore.ieee.org/abstract/document/9376975)
 
 
+## Pretrained weights (jazz)
+
+Weights for the WJazzD-trained CMT (used by the comparison pipeline) live on
+Hugging Face: [maxkudryashov/cmt-1](https://huggingface.co/maxkudryashov/cmt-1).
+
+Three configurations are available under `paper/` (= unmodified architecture
+from the original CMT paper, only the `num_bars` context length varies):
+`paper/8bars/` (baseline), `paper/16bars/` (best quality on eval pitch_acc),
+and `paper/32bars/` (extended context, but underperforms both baselines —
+included for completeness of the ВКР context-length study). Each folder
+contains the trained checkpoint plus a `hparams.yaml` snapshot of the
+exact config used for training (so generation needs only one path).
+
+Future hypothesis runs (e.g. triplet support, transfer learning) will
+land as siblings to `paper/`, e.g. `triplets/16bars/`, etc.
+
+Download (8-bar):
+```bash
+pip install -U huggingface_hub
+hf download maxkudryashov/cmt-1 \
+  paper/8bars/best_jazz_model_8bars.pth.tar paper/8bars/hparams.yaml \
+  --local-dir result
+# → result/paper/8bars/{best_jazz_model_8bars.pth.tar, hparams.yaml}
+```
+
+Download (16-bar):
+```bash
+hf download maxkudryashov/cmt-1 \
+  paper/16bars/best_jazz_model_16bars.pth.tar paper/16bars/hparams.yaml \
+  --local-dir result
+# → result/paper/16bars/{best_jazz_model_16bars.pth.tar, hparams.yaml}
+```
+
+Download (32-bar):
+```bash
+hf download maxkudryashov/cmt-1 \
+  paper/32bars/best_jazz_model_32bars.pth.tar paper/32bars/hparams.yaml \
+  --local-dir result
+# → result/paper/32bars/{best_jazz_model_32bars.pth.tar, hparams.yaml}
+```
+
 ## Requirements
 - matplotlib >= 3.3.1
 - numpy >= 1.19.1
